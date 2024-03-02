@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainBg {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.mainBg figure {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  height: 100vh;
+  width: 100%;
+  padding: 4em;
+}
+.mainBg figure .navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainBg figure .navContainer .infoContent {
+  display: flex;
+  list-style: none;
+  background-color: red;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 1.5em;
+}
+.mainBg figure .navContainer .infoContent li {
+  display: flex;
+  align-items: center;
+}
+.mainBg figure .navContainer .infoContent li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.mainBg figure .logo::after {
+  content: " ";
+  width: 105px;
+  height: 3px;
+  background-color: red;
+}/*# sourceMappingURL=index.css.map */
