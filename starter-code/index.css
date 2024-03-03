@@ -28,14 +28,22 @@
   justify-content: space-evenly;
   width: 50%;
   padding: 1.5em;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 12px;
 }
-.mainBg figure .navContainer .infoContent li {
+.mainBg figure .navContainer .infoContent #singleInfo {
   display: flex;
   align-items: center;
+  gap: 0.8em;
 }
-.mainBg figure .navContainer .infoContent li a {
+.mainBg figure .navContainer .infoContent #singleInfo a {
   text-decoration: none;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.886);
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
 }
 .mainBg figure .logo::after {
   content: " ";
