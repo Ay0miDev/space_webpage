@@ -13,17 +13,26 @@
         background-image: url(./assets/home/background-home-desktop.jpg);
         height: 100vh;
         width: 100%;
-        padding: 4em;
+        padding: 4em 0 4em 4em;
 
         .navContainer {
             display: flex;
             justify-content: space-between;
             align-items: center;
-
+            .imgContainer {
+                width: 50%;
+            }
+            .imgContainer ::before {
+                content: "";
+                width: 150px;
+                height: 5px;
+                background-color: red;
+            }
             .infoContent {
                 display: flex;
                 list-style: none;
-                background: linear-gradient(to right, rgb(54, 51, 51), rgb(157, 157, 184), rgb(63, 108, 212));
+                background: linear-gradient(to right, rgb(54, 51, 51), rgb(157, 157, 184), rgba(6, 78, 248, 0.034));
+                background: opacity(.5);
                 justify-content: space-evenly;
                 width: 50%;
                 padding: 1.5em;
@@ -31,25 +40,35 @@
                 font-family: "Dosis", sans-serif;
                 font-size: 12px;
 
-                #singleInfo {
+                #singleInfoContainer {
                     display: flex;
                     align-items: center;
                     gap: .8em;
 
-                    // #num {
-                    //     font-size: 12px;
-                    // }
-
-                    a {
+                    #singleInfo {
                         text-decoration: none;
                         text-transform: uppercase;
                         color: rgba(255, 255, 255, 0.886);
                         font-family: "Dosis", sans-serif;
                         font-weight: 500;
                         font-size: 16px;
+                        position: relative;
+                    }
+                    #singleInfo ::after {
+                        content: "";
+                        width: 0;
+                        height: 5px;
+                        background: red;
+                        position: absolute;
+                        bottom: 3em ;
+                    }
+                    #singleInfo:hover ::after {
+                        width: 100%;
+
                     }
                 }
             }
+            
         }
 
         .logo::after {

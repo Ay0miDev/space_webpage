@@ -14,17 +14,27 @@
   background-image: url(./assets/home/background-home-desktop.jpg);
   height: 100vh;
   width: 100%;
-  padding: 4em;
+  padding: 4em 0 4em 4em;
 }
 .mainBg figure .navContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.mainBg figure .navContainer .imgContainer {
+  width: 50%;
+}
+.mainBg figure .navContainer .imgContainer ::before {
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-color: red;
+}
 .mainBg figure .navContainer .infoContent {
   display: flex;
   list-style: none;
-  background: linear-gradient(to right, rgb(54, 51, 51), rgb(157, 157, 184), rgb(63, 108, 212));
+  background: linear-gradient(to right, rgb(54, 51, 51), rgb(157, 157, 184), rgba(6, 78, 248, 0.034));
+  background: opacity(0.5);
   justify-content: space-evenly;
   width: 50%;
   padding: 1.5em;
@@ -32,18 +42,30 @@
   font-family: "Dosis", sans-serif;
   font-size: 12px;
 }
-.mainBg figure .navContainer .infoContent #singleInfo {
+.mainBg figure .navContainer .infoContent #singleInfoContainer {
   display: flex;
   align-items: center;
   gap: 0.8em;
 }
-.mainBg figure .navContainer .infoContent #singleInfo a {
+.mainBg figure .navContainer .infoContent #singleInfoContainer #singleInfo {
   text-decoration: none;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.886);
   font-family: "Dosis", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  position: relative;
+}
+.mainBg figure .navContainer .infoContent #singleInfoContainer #singleInfo ::after {
+  content: "";
+  width: 0;
+  height: 5px;
+  background: red;
+  position: absolute;
+  bottom: 3em;
+}
+.mainBg figure .navContainer .infoContent #singleInfoContainer #singleInfo:hover ::after {
+  width: 100%;
 }
 .mainBg figure .logo::after {
   content: " ";
