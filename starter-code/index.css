@@ -24,11 +24,30 @@
 .mainBg figure .navContainer .imgContainer {
   width: 50%;
 }
-.mainBg figure .navContainer .imgContainer ::before {
+.mainBg figure .navContainer #singleInfoContainer {
+  position: relative;
+  border-radius: 5px;
+  padding: 2px 15px;
+  background: none;
+}
+.mainBg figure .navContainer #singleInfoContainer:hover {
+  background: rgba(255, 255, 255, 0.172);
+  transition: background 1500ms ease 0s, right 1500ms ease 0s;
+}
+.mainBg figure .navContainer #singleInfoContainer::after {
   content: "";
-  width: 150px;
-  height: 5px;
-  background-color: red;
+  width: 0;
+  height: 3px;
+  background-color: white;
+  bottom: -1.5em;
+  position: absolute;
+  transition: width 500ms ease 0s, right 500ms ease 0s;
+  right: 50%;
+  border-radius: 5px;
+}
+.mainBg figure .navContainer #singleInfoContainer:hover::after {
+  width: 100%;
+  right: 0;
 }
 .mainBg figure .navContainer .infoContent {
   display: flex;
@@ -55,17 +74,6 @@
   font-weight: 500;
   font-size: 16px;
   position: relative;
-}
-.mainBg figure .navContainer .infoContent #singleInfoContainer #singleInfo ::after {
-  content: "";
-  width: 0;
-  height: 5px;
-  background: red;
-  position: absolute;
-  bottom: 3em;
-}
-.mainBg figure .navContainer .infoContent #singleInfoContainer #singleInfo:hover ::after {
-  width: 100%;
 }
 .mainBg figure .logo::after {
   content: " ";

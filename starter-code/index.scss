@@ -22,11 +22,31 @@
             .imgContainer {
                 width: 50%;
             }
-            .imgContainer ::before {
+            #singleInfoContainer {
+                position: relative;
+                border-radius: 5px;
+                padding: 2px 15px;
+                background: none;
+            }
+            #singleInfoContainer:hover {
+                background: rgba(255, 255, 255, 0.172);
+                transition: background 1500ms ease 0s, right 1500ms ease 0s;
+            }
+            #singleInfoContainer::after {
                 content: "";
-                width: 150px;
-                height: 5px;
-                background-color: red;
+                width: 0;
+                height: 3px;
+                background-color: white;
+                bottom: -1.5em;
+                position: absolute;
+                transition: width 500ms ease 0s, right 500ms ease 0s;
+                right: 50%;
+                border-radius: 5px;
+            }
+            #singleInfoContainer:hover::after {
+                width: 100%;
+                right: 0;
+
             }
             .infoContent {
                 display: flex;
@@ -53,18 +73,6 @@
                         font-weight: 500;
                         font-size: 16px;
                         position: relative;
-                    }
-                    #singleInfo ::after {
-                        content: "";
-                        width: 0;
-                        height: 5px;
-                        background: red;
-                        position: absolute;
-                        bottom: 3em ;
-                    }
-                    #singleInfo:hover ::after {
-                        width: 100%;
-
                     }
                 }
             }
