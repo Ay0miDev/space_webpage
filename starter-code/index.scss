@@ -31,7 +31,7 @@
                 position: absolute;
                 content: "";
                 width: 150px;
-                height: 3px;
+                height: 13px;
                 background: blue;
                 bottom: 8em;
                 right: 50%;
@@ -93,12 +93,44 @@
             }
             
         }
+        .moreDetails {
+            margin: 14em 8em;
+            display: flex;
+            justify-content: space-between;
 
-        .logo::after {
-            content: " ";
-            width: 105px;
-            height: 3px;
-            background-color: red;
+            .moreDetails01 {
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+                color: white;
+
+                #question {
+
+                }
+                #space {
+                    font-size: 5em;
+                    text-transform: uppercase;
+                }
+            }
+            .moreDetails02 {
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                #explore {
+                    background: white;
+                    height: 180px;
+                    width: 180px;
+                    border-radius: 50%;
+                    padding: 1.5em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                }
+            }
         }
     }
 }
