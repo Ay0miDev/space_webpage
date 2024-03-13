@@ -24,11 +24,18 @@
 .mainBg figure .navContainer .imgContainer {
   width: 50%;
 }
-.mainBg figure .navContainer .imgContainer .logo {
+.mainBg figure .navContainer .imgContainer .imgContainer {
   position: relative;
+  width: 100%;
 }
-.mainBg figure .navContainer .imgContainer .logo::after {
+.mainBg figure .navContainer .imgContainer .imgContainer::after {
   position: absolute;
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: blue;
+  bottom: 8em;
+  right: 50%;
 }
 .mainBg figure .navContainer #singleInfoContainer {
   position: relative;

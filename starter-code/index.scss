@@ -22,12 +22,19 @@
             .imgContainer {
                 width: 50%;
 
-            .logo {
+            .imgContainer {
                 position: relative;
+                width: 100%;
+
             }
-            .logo::after {
+            .imgContainer::after {
                 position: absolute;
-                content: ;
+                content: "";
+                width: 150px;
+                height: 3px;
+                background: blue;
+                bottom: 8em;
+                right: 50%;
             }
             }
             #singleInfoContainer {
