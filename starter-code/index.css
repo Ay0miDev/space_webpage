@@ -24,6 +24,12 @@
 .mainBg figure .navContainer .imgContainer {
   width: 50%;
 }
+.mainBg figure .navContainer .imgContainer .logo {
+  position: relative;
+}
+.mainBg figure .navContainer .imgContainer .logo::after {
+  position: absolute;
+}
 .mainBg figure .navContainer #singleInfoContainer {
   position: relative;
   border-radius: 5px;

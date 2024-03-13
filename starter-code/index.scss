@@ -21,6 +21,14 @@
             align-items: center;
             .imgContainer {
                 width: 50%;
+
+            .logo {
+                position: relative;
+            }
+            .logo::after {
+                position: absolute;
+                content: ;
+            }
             }
             #singleInfoContainer {
                 position: relative;
