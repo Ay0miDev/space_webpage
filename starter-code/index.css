@@ -24,11 +24,11 @@
 .mainBg figure .navContainer .imgContainer {
   width: 50%;
 }
-.mainBg figure .navContainer .imgContainer .imgContainer {
+.mainBg figure .navContainer .imgContainer {
   position: relative;
-  width: 100%;
+  width: 10%;
 }
-.mainBg figure .navContainer .imgContainer .imgContainer::after {
+.mainBg figure .navContainer .imgContainer::after {
   position: absolute;
   content: "";
   width: 150px;
@@ -36,6 +36,12 @@
   background: blue;
   bottom: 8em;
   right: 50%;
+}
+.mainBg figure .navContainer .marginalLine {
+  width: 150px;
+  height: 4px;
+  background-color: red;
+  display: inline;
 }
 .mainBg figure .navContainer #singleInfoContainer {
   position: relative;

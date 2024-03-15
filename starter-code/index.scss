@@ -21,10 +21,10 @@
             align-items: center;
             .imgContainer {
                 width: 50%;
-
+            }
             .imgContainer {
                 position: relative;
-                width: 100%;
+                width: 10%;
 
             }
             .imgContainer::after {
@@ -36,6 +36,11 @@
                 bottom: 8em;
                 right: 50%;
             }
+            .marginalLine {
+                width: 150px;
+                height: 4px;
+                background-color: red;
+                display: inline;
             }
             #singleInfoContainer {
                 position: relative;
