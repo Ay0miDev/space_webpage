@@ -24,23 +24,27 @@
             }
             .imgContainer {
                 position: relative;
-                width: 10%;
+                width: 35%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
 
             }
-            .imgContainer::after {
-                position: absolute;
-                content: "";
-                width: 150px;
-                height: 13px;
-                background: blue;
-                bottom: 8em;
-                right: 50%;
-            }
+            // .imgContainer::after {
+            //     position: absolute;
+            //     content: "";
+            //     width: 150px;
+            //     height: 13px;
+            //     background: blue;
+            //     bottom: 8em;
+            //     right: 50%;
+            // }
             .marginalLine {
-                width: 150px;
+                width: 250px;
                 height: 4px;
-                background-color: red;
-                display: inline;
+                background-color: rgba(255, 255, 255, 0.43);
+                border-radius: 5px;
+                border: none;
             }
             #singleInfoContainer {
                 position: relative;
