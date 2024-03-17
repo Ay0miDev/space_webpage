@@ -3,33 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
-.mainBg {
+.mainBg01 {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     height: 100vh;
 
-    figure {
-        background-image: url(./assets/home/background-destination-desktop.jpg);
+    .fig {
+        background-image: url(./assets/destination/background-destination-mobile.jpg);
         height: 100vh;
         width: 100%;
         padding: 4em 0 4em 4em;
 
-        .navContainer {
+        .navContainer01 {
             display: flex;
             justify-content: space-between;
             align-items: center;
             .imgContainer {
                 width: 50%;
             }
-            .imgContainer {
+            .imgContainer01 {
                 position: relative;
                 width: 50%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
             }
-            .marginalLine {
+            .marginalLine01 {
                 width: 500px;
                 height: 1.5px;
                 background-color: rgba(255, 255, 255, 0.43);
@@ -37,17 +37,17 @@
                 border: none;
                 margin: 0 5em 0 ;
             }
-            #singleInfoContainer {
+            #singleInfoContainer01 {
                 position: relative;
                 border-radius: 5px;
                 padding: 2px 15px;
                 background: none;
             }
-            #singleInfoContainer:hover {
+            #singleInfoContainer01:hover {
                 background: rgba(255, 255, 255, 0.172);
                 transition: background 1500ms ease 0s, right 1500ms ease 0s;
             }
-            #singleInfoContainer::after {
+            #singleInfoContainer01::after {
                 content: "";
                 width: 0;
                 height: 3px;
@@ -58,12 +58,12 @@
                 right: 50%;
                 border-radius: 5px;
             }
-            #singleInfoContainer:hover::after {
+            #singleInfoContainer01:hover::after {
                 width: 100%;
                 right: 0;
 
             }
-            .infoContent {
+            .infoContent01 {
                 display: flex;
                 list-style: none;
                 background: linear-gradient(to right, rgb(54, 51, 51), rgb(157, 157, 184), rgba(6, 78, 248, 0.034));
@@ -75,12 +75,12 @@
                 font-family: "Dosis", sans-serif;
                 font-size: 12px;
 
-                #singleInfoContainer {
+                #singleInfoContainer01 {
                     display: flex;
                     align-items: center;
                     gap: .8em;
 
-                    #singleInfo {
+                    #singleInfo01 {
                         text-decoration: none;
                         text-transform: uppercase;
                         color: rgba(255, 255, 255, 0.886);
@@ -92,56 +92,6 @@
                 }
             }
             
-        }
-        .moreDetails {
-            margin: 14em 8em;
-            display: flex;
-            justify-content: space-between;
-
-            .moreDetails01 {
-                width: 35%;
-                display: flex;
-                flex-direction: column;
-                gap: 2em;
-                color: white;
-
-                #question {
-                    font-family: "Dosis", sans-serif;
-                    font-weight: 100;
-                    text-transform: uppercase;
-                    letter-spacing: 1px;
-                }
-                #space {
-                    font-size: 5em;
-                    text-transform: uppercase;
-                    font-weight: 100;
-                }
-                #spaceText {
-                    font-family: "Dosis", sans-serif;
-                    line-height: 25px;
-                    letter-spacing: 2px;
-                }
-            }
-            .moreDetails02 {
-                width: 40%;
-                display: flex;
-                align-items: center;
-                justify-content: end;
-
-                #explore {
-                    background: white;
-                    height: 180px;
-                    width: 180px;
-                    border-radius: 50%;
-                    padding: 1.5em;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-transform: uppercase;
-                    font-family: "Dosis", sans-serif;
-                    font-weight: 500;
-                }
-            }
         }
     }
 }
