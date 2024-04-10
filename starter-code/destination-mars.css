@@ -90,6 +90,28 @@
   font-size: 16px;
   position: relative;
 }
+.mainBg01 .fig .marsDetails {
+  padding: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
 .mainBg01 .fig .marsDetails .destinationAndimage .destination {
+  text-transform: uppercase;
   font-family: "Dosis", sans-serif;
+  color: white;
+}
+.mainBg01 .fig .marsDetails .destinationAndimage .destination > span {
+  color: white;
+}
+.mainBg01 .fig .marsDetails .marsInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 3em;
+}
+.mainBg01 .fig .marsDetails .marsInfo .planet {
+  width: 30%;
 }/*# sourceMappingURL=destination-mars.css.map */

@@ -94,10 +94,32 @@
         }
 
         .marsDetails {
+            padding: 7em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+
             .destinationAndimage {
                 .destination {
+                    text-transform: uppercase;
                     font-family: "Dosis", sans-serif;
-                              
+                    color: white;
+
+                    >span {
+                        color: white;
+                    }
+                }
+            }
+            .marsInfo {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                padding-top: 3em;
+
+                .planet {
+                    width: 30%;
                 }
             }
         }
