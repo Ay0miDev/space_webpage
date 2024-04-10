@@ -113,5 +113,13 @@
   padding-top: 3em;
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet {
-  width: 30%;
+  width: 40%;
+}
+.mainBg01 .fig .marsDetails .marsInfo .planet .theplanet {
+  list-style: none;
+  display: flex;
+}
+.mainBg01 .fig .marsDetails .marsInfo .planet .theplanet > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
 }/*# sourceMappingURL=destination-mars.css.map */
