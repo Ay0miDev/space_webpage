@@ -118,8 +118,13 @@
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet {
   list-style: none;
   display: flex;
+  gap: 1.5em;
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet > li > a {
   text-decoration: none;
   text-transform: uppercase;
+}
+.mainBg01 .fig .marsDetails .marsInfo .planet .mars {
+  text-transform: uppercase;
+  font-size: 36px;
 }/*# sourceMappingURL=destination-mars.css.map */
