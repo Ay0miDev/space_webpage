@@ -93,6 +93,8 @@
             }
         }
 
+
+        // MAIN CONTAINER
         .marsDetails {
             padding: 7em;
             display: flex;
@@ -119,7 +121,14 @@
                 padding-top: 3em;
 
                 .planet {
+                    font-family: "Dosis", sans-serif;
                     width: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 3em;
+                    align-items: start;
+                    color: white;
+                    text-transform: uppercase;
 
                     .theplanet {
                         list-style: none;
@@ -130,12 +139,26 @@
                         }
                         >li > a {
                             text-decoration: none;
-                            text-transform: uppercase;
+                            color: white;
                         }
                     }
                     .mars {
-                        text-transform: uppercase;
-                        font-size: 36px;
+                        font-size: 5em;
+                    }
+                    .timeAndDistance {
+                        display: flex;
+                        gap: 4em;
+                        width: 100%;
+
+                        .distanceDetails, .timeDetails {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1em;
+
+                            .distanceDetails > h2, .timeDetails > h2 {
+                                font-family: none;
+                            }
+                        }
                     }
                 }
             }
