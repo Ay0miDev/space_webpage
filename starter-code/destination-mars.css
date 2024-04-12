@@ -156,6 +156,10 @@
   flex-direction: column;
   gap: 1em;
 }
+.mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails > h4, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails > h4 {
+  font-weight: lighter;
+}
 .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails #kilometer, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails #month, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails #kilometer, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails #month {
-  display: none;
+  font-weight: lighter;
+  font-family: none;
 }/*# sourceMappingURL=destination-mars.css.map */
