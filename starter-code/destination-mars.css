@@ -127,6 +127,8 @@
   list-style: none;
   display: flex;
   gap: 1.5em;
+  font-size: 12px;
+  letter-spacing: 3px;
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet > li > a {
   text-decoration: none;
@@ -158,8 +160,12 @@
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails > h4, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails > h4 {
   font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 12px;
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails #kilometer, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails #month, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails #kilometer, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails #month {
+  letter-spacing: -1px;
+  font-size: 25px;
   font-weight: lighter;
   font-family: none;
 }/*# sourceMappingURL=destination-mars.css.map */
