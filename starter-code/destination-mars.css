@@ -134,6 +134,11 @@
 .mainBg01 .fig .marsDetails .marsInfo .planet .mars {
   font-size: 5em;
 }
+.mainBg01 .fig .marsDetails .marsInfo .planet .information {
+  display: block;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
 .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance {
   display: flex;
   gap: 4em;
@@ -144,6 +149,6 @@
   flex-direction: column;
   gap: 1em;
 }
-.mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails .distanceDetails > h2, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails .timeDetails > h2, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails .distanceDetails > h2, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails .timeDetails > h2 {
-  font-family: none;
+.mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails #kilometer, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .distanceDetails #month, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails #kilometer, .mainBg01 .fig .marsDetails .marsInfo .planet .timeAndDistance .timeDetails #month {
+  display: none;
 }/*# sourceMappingURL=destination-mars.css.map */
