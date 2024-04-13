@@ -96,7 +96,7 @@
 
         // MAIN CONTAINER
         .marsDetails {
-            padding: 7em;
+            padding: 5em 5em 0 5em;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -104,10 +104,12 @@
 
             .destinationAndimage {
                 .destination {
+                    display: flex;
+                    gap: 1em;
                     text-transform: uppercase;
                     font-family: "Dosis", sans-serif;
                     color: white;
-                    font-weight: 100;
+                    font-weight: 400;
                     letter-spacing: 3px;
 
                     >span {
@@ -118,10 +120,15 @@
             .marsInfo {
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
+                gap: 12em;
                 width: 100%;
-                padding-top: 3em;
+                padding: 3em 7em 0;
 
+                .moonImg {
+                    width: 400x;
+                    height: 400px;
+                    border-radius: 50%;
+                }
                 .planet {
                     font-family: "Dosis", sans-serif;
                     width: 40%;
@@ -139,12 +146,12 @@
                         gap: 1.5em;
                         font-size: 12px;
                         letter-spacing: 3px;
-
+                        
                         >li {
                         }
                         >li > a {
                             text-decoration: none;
-                            color: white;
+                            color: rgb(220, 201, 201);
                         }
                     }
                     .mars {
@@ -160,6 +167,7 @@
                         text-transform: capitalize;
                         font-size: 13px;
                         width: 80%;
+                        color: rgb(220, 201, 201);
                     }
                     .timeAndDistance {
                         display: flex;
@@ -175,6 +183,7 @@
                                 font-weight: lighter;
                                 letter-spacing: 3px;
                                 font-size: 12px;
+                                color: rgb(220, 201, 201);
                             }
                             
                             #kilometer, #month {
@@ -182,6 +191,7 @@
                                 font-size: 25px;
                                 font-weight: lighter;
                                 font-family: none;
+                                color: white;
                             }
                         }
                     }
