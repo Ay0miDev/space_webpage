@@ -53,6 +53,63 @@ solarSystem01.classList.add('solarsystem');
 const solarSystem04 = document.createElement('a');
 solarSystem01.classList.add('solarsystem');
 
+solarSystem01.innerText = `moon`
+solarSystem02.innerText = `mars`
+solarSystem03.innerText = `europa`
+solarSystem04.innerText = `titan`
+
+list01.appendChild(solarSystem01);
+list02.appendChild(solarSystem02);
+list03.appendChild(solarSystem03);
+list04.appendChild(solarSystem04);
+console.log(list01.textContent);
+
+// Append all list in the unordered element
+thePlanet.appendChild(list01)
+thePlanet.appendChild(list02)
+thePlanet.appendChild(list03)
+thePlanet.appendChild(list04)
+// console.log(theplanet.innerText);
+
+const Mars = document.createElement('h1');
+Mars.classList.add('mars');
+Mars.textContent = `mars`
+console.log(Mars.textContent);
+
+const Information = document.createElement('p');
+Information.classList.add('information');
+const InformationText = document.createTextNode(`Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+the tallest planetary mountain in our solar system. It’s two and a half times 
+the size of Everest!`)
+Information.appendChild(InformationText);
+
+const TimeAndDistance = document.createElement('div');
+TimeAndDistance.classList.add('timeAndDistance');
+
+const DistanceDetail = document.createElement('div');
+DistanceDetail.classList.add('distanceDetails');
+
+const avgDistance = document.createElement('h4');
+avgDistance.innerText = `avg. distance`
+const milkm = document.createElement('h4');
+milkm.setAttribute('id', 'kilometer');
+milkm.innerText = `225 mil. km`
+
+DistanceDetail.appendChild(avgDistance);
+DistanceDetail.appendChild(milkm);
+console.log(DistanceDetail.textContent);
+
+const TimeDetail = document.createElement('div');
+TimeDetail.classList.add('timeDetails');
+
+const travelTimes = document.createElement('h4');
+travelTimes.innerText = `est. travel ti`
+const months = document.createElement('h4');
+months.setAttribute('id', 'month')
+months.innerText = `9 months`
+TimeDetail.appendChild(travelTimes);
+TimeDetail.appendChild(months);
+console.log(TimeDetail.textContent);
 
 
 
