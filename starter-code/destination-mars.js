@@ -15,12 +15,12 @@ const zerooneText = document.createTextNode('01');
 // Appending the first div
 zeroone.appendChild(zerooneText);
 
-const destinationText = document.createTextNode(`pick your destination`)
-destination.appendChild(destinationText);
-
+const destinationText = document.createTextNode(` pick your destination`)
 destination.appendChild(zeroone);
+destination.appendChild(destinationText)
+
 destinationAndImage.appendChild(destination);
-console.log(destinationAndImage);
+console.log(destinationAndImage.textContent);
 
 const marsInfo = document.createElement('div');
 marsInfo.classList.add('marsInfo');
