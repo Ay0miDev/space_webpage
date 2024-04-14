@@ -83,7 +83,8 @@
                     #singleInfo01 {
                         text-decoration: none;
                         text-transform: uppercase;
-                        color: rgba(255, 255, 255, 0.886);
+                        // color: rgba(255, 255, 255, 0.886);
+                        color: rgb(220, 201, 201);
                         font-family: "Dosis", sans-serif;
                         font-weight: 500;
                         font-size: 16px;
@@ -153,6 +154,25 @@
                             text-decoration: none;
                             color: rgb(220, 201, 201);
                         }
+                        .solarsystem {
+                            position: relative;
+                        }
+
+                        .solarsystem::after {
+                            content: "";
+                            width: 0;
+                            position: absolute;
+                            transition: width 500ms ease 0s, right 500ms ease 0s;
+                            background-color: white;
+                            right: 50%;
+                            bottom: -1em;
+                            height: 1px;
+                            border-radius: 5px;
+                        }
+                        .solarsystem:hover::after {
+                            width: 100%;
+                            right: 0;
+                        }
                     }
                     .mars {
                         font-size: 5em;
@@ -161,6 +181,7 @@
                         letter-spacing: -5px;
                     }
                     .information {
+                        position: relative;
                         display: block;
                         line-height: 25px;
                         letter-spacing: 1px;
@@ -168,6 +189,16 @@
                         font-size: 13px;
                         width: 80%;
                         color: rgb(220, 201, 201);
+                    }
+                    .information::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        background-color: rgb(220, 201, 201);
+                        bottom: -2em;
+                        height: 2px;
+                        left: 0;
+                        border-radius: 5px;
                     }
                     .timeAndDistance {
                         display: flex;
