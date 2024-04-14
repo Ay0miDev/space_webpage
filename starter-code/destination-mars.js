@@ -35,6 +35,26 @@ moonImg.setAttribute('alt', 'THE MARS');
 const planet = document.createElement('div');
 planet.classList.add('planet');
 
+// The unodered list
+const thePlanet = document.createElement('ul');
+thePlanet.classList.add('theplanet');
+
+const list01 = document.createElement('li');
+const list02 = document.createElement('li');
+const list03 = document.createElement('li');
+const list04 = document.createElement('li');
+
+const solarSystem01 = document.createElement('a');
+solarSystem01.classList.add('solarsystem');
+const solarSystem02 = document.createElement('a');
+solarSystem01.classList.add('solarsystem');
+const solarSystem03 = document.createElement('a');
+solarSystem01.classList.add('solarsystem');
+const solarSystem04 = document.createElement('a');
+solarSystem01.classList.add('solarsystem');
+
+
+
 
 
 
