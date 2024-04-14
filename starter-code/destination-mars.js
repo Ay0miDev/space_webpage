@@ -1,8 +1,7 @@
 // Destination Main Container 
 
 // THE SECTION CONTAINER
-const section = document.createElement("section");
-section.classList.add('marsDetails');
+const MarsDetail = document.querySelector(".marsDetails");
 
 const destinationAndImage = document.createElement('div');
 destinationAndImage.classList.add('destinationAndimage');
@@ -46,12 +45,19 @@ const list04 = document.createElement('li');
 
 const solarSystem01 = document.createElement('a');
 solarSystem01.classList.add('solarsystem');
+solarSystem01.setAttribute('href', '')
+
 const solarSystem02 = document.createElement('a');
-solarSystem01.classList.add('solarsystem');
+solarSystem02.classList.add('solarsystem');
+solarSystem02.setAttribute('href', '')
+
 const solarSystem03 = document.createElement('a');
-solarSystem01.classList.add('solarsystem');
+solarSystem03.classList.add('solarsystem');
+solarSystem03.setAttribute('href', '')
+
 const solarSystem04 = document.createElement('a');
-solarSystem01.classList.add('solarsystem');
+solarSystem04.classList.add('solarsystem');
+solarSystem04.setAttribute('href', '')
 
 solarSystem01.innerText = `moon`
 solarSystem02.innerText = `mars`
@@ -69,7 +75,7 @@ thePlanet.appendChild(list01)
 thePlanet.appendChild(list02)
 thePlanet.appendChild(list03)
 thePlanet.appendChild(list04)
-// console.log(theplanet.innerText);
+console.log(thePlanet.innerText);
 
 const Mars = document.createElement('h1');
 Mars.classList.add('mars');
@@ -111,9 +117,17 @@ TimeDetail.appendChild(travelTimes);
 TimeDetail.appendChild(months);
 console.log(TimeDetail.textContent);
 
+TimeAndDistance.appendChild(DistanceDetail);
+TimeAndDistance.appendChild(TimeDetail);
 
+// Appending all divs
+planet.appendChild(thePlanet);
+planet.appendChild(Mars);
+planet.appendChild(Information);
+planet.appendChild(TimeAndDistance);
 
+marsInfo.appendChild(moonImg);
+marsInfo.appendChild(planet);
 
-
-
-
+MarsDetail.appendChild(destinationAndImage);
+MarsDetail.appendChild(marsInfo);
