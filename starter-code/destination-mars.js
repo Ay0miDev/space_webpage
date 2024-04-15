@@ -14,7 +14,7 @@ const zerooneText = document.createTextNode('01');
 // Appending the first div
 zeroone.appendChild(zerooneText);
 
-const destinationText = document.createTextNode(` pick your destination`)
+const destinationText = document.createTextNode(`pick your destination`)
 destination.appendChild(zeroone);
 destination.appendChild(destinationText)
 
@@ -59,8 +59,8 @@ const solarSystem04 = document.createElement('a');
 solarSystem04.classList.add('solarsystem');
 solarSystem04.setAttribute('href', '')
 
-solarSystem01.innerText = `moon`
-solarSystem02.innerText = `mars`
+solarSystem01.innerText = `mars`
+solarSystem02.innerText = `moon`
 solarSystem03.innerText = `europa`
 solarSystem04.innerText = `titan`
 

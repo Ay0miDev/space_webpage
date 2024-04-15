@@ -99,7 +99,7 @@
 }
 .mainBg01 .fig .marsDetails .destinationAndimage .destination {
   display: flex;
-  gap: 1em;
+  gap: 0.5em;
   text-transform: uppercase;
   font-family: "Dosis", sans-serif;
   color: white;
@@ -107,7 +107,7 @@
   letter-spacing: 3px;
 }
 .mainBg01 .fig .marsDetails .destinationAndimage .destination > span {
-  color: white;
+  color: rgb(90, 87, 87);
 }
 .mainBg01 .fig .marsDetails .marsInfo {
   display: flex;
@@ -181,9 +181,9 @@
   content: "";
   position: absolute;
   width: 100%;
-  background-color: rgb(220, 201, 201);
+  background-color: rgba(255, 255, 255, 0.43);
   bottom: -2em;
-  height: 2px;
+  height: 1px;
   left: 0;
   border-radius: 5px;
 }
