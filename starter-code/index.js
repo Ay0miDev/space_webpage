@@ -1,7 +1,23 @@
-// Click Event listener to indicate the locatio of the current page
-const navInfo01 = document.getElementById('singleInfo')[0]
-const navInfo02 = document.getElementById('singleInfo')[1]
-const navInfo03 = document.getElementById('singleInfo')[2]
-const navInfo04 = document.getElementById('singleInfo')[3]
+// // Select all elements with the ID 'singleInfo'
+// const navInfoElements = document.querySelectorAll('#singleInfo');
+
+// // Loop through each element and add a click event listener
+// navInfoElements.forEach(navInfo => {
+//     navInfo.addEventListener('click', bgfixed);
+// });
+
+// // Define the function to change the background color
+// function bgfixed(event) {
+//     event.target.style.backgroundColor = 'red';
+// }
+
+
+// const navInfoElements = document.querySelectorAll('#singleInfo')
+
+const navInfoElements01 = document.getElementsByClassName('singleInfo01');
+const navInfoElements02 = document.getElementsByClassName('singleInfo02');
+const navInfoElements03 = document.getElementsByClassName('singleInfo03');
+const navInfoElements04 = document.getElementsByClassName('singleInfo04');
+
 
 
