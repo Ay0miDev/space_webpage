@@ -19,5 +19,12 @@ const navInfoElements02 = document.getElementsByClassName('singleInfo02');
 const navInfoElements03 = document.getElementsByClassName('singleInfo03');
 const navInfoElements04 = document.getElementsByClassName('singleInfo04');
 
-
+const InfoElements01 = () => {
+    
+}
+if (navInfoElements01 = document.innerHTML == 'HOME') {
+    
+} else {
+    
+}
 
