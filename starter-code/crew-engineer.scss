@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .mainBgEng {
     max-width: 1440px;
     width: 100%;
@@ -11,7 +10,7 @@
     height: 100vh;
 
     .figEng {
-        background-image: url(./assets/destination/background-destination-desktop.jpg);
+        background-image: url(./assets/crew/background-crew-desktop.jpg);
         height: 100vh;
         width: 100%;
         padding: 4em 0 4em 4em;
@@ -48,7 +47,7 @@
                 background: rgba(255, 255, 255, 0.172);
                 transition: background 1500ms ease 0s, right 1500ms ease 0s;
             }
-            #singleInfoContainer01::after {
+            .singleInfoContainerEng::after {
                 content: "";
                 width: 0;
                 height: 3px;
@@ -59,12 +58,12 @@
                 right: 50%;
                 border-radius: 5px;
             }
-            #singleInfoContainer01:hover::after {
+            .singleInfoContainerEng:hover::after {
                 width: 100%;
                 right: 0;
 
             }
-            .infoContent01 {
+            .infoContentEng {
                 display: flex;
                 list-style: none;
                 background: linear-gradient(to right, rgba(19, 9, 39, 0.253), rgba(0, 0, 0, 0.482), rgba(6, 6, 6, 0.818));
@@ -76,12 +75,12 @@
                 font-family: "Dosis", sans-serif;
                 font-size: 12px;
 
-                #singleInfoContainer01 {
+                .singleInfoContainerEng {
                     display: flex;
                     align-items: center;
                     gap: .8em;
 
-                    #singleInfo01 {
+                    .singleInfoEng {
                         text-decoration: none;
                         text-transform: uppercase;
                         // color: rgba(255, 255, 255, 0.886);
