@@ -141,6 +141,7 @@
                     #occupation {
                         font-size: 30px;
                         font-weight: 300;
+                        color: rgba(255, 255, 255, 0.43);
                     }
                     #name {
                         font-size: 50px;
@@ -152,16 +153,25 @@
                         text-transform: capitalize;
                         width: 85%;
                         letter-spacing: 1px;
+                        color: rgba(255, 255, 255, 0.43);
+                        padding-top: 2em;
+                        padding-bottom: 4.5em;
+                        line-height: 30px;
                     }
                     .crewToggleContainer {
                         display: flex;
                         flex-direction: row;
+                        gap: 1.5em;
 
                         .crewToggle {
                             width: 20px;
                             height: 20px;
-                            background-color: white;
+                            background-color: rgba(255, 255, 255, 0.43);
                             border-radius: 50%;
+                            cursor: pointer;
+                        }
+                        .crewToggle:nth-child(1) {
+                            background-color: white;
                         }
                     }
                 }

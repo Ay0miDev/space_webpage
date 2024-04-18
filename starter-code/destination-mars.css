@@ -92,7 +92,7 @@
   position: relative;
 }
 .mainBg01 .fig .marsDetails {
-  padding: 5em 5em 0 5em;
+  padding: 10em 5em 0 5em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -106,6 +106,7 @@
   color: white;
   font-weight: 400;
   letter-spacing: 3px;
+  padding-left: 2em;
 }
 .mainBg01 .fig .marsDetails .destinationAndimage .destination > span {
   color: rgb(90, 87, 87);
