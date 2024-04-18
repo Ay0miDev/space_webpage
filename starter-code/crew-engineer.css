@@ -6,12 +6,14 @@
 
 .mainBgEng {
   max-width: 1440px;
+  max-height: 100vh;
   width: 100%;
   margin: 0 auto;
   height: 100vh;
 }
 .mainBgEng .figEng {
   background-image: url(./assets/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
   padding: 4em 0 4em 4em;
@@ -91,7 +93,7 @@
   position: relative;
 }
 .mainBgEng .figEng .crewDetails {
-  padding: 5em 8em 0 8em;
+  padding: 7em 8em 0 8em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -112,22 +114,35 @@
 .mainBgEng .figEng .crewDetails .ansari_Img_Info {
   display: flex;
   flex-direction: row;
-  gap: 12em;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   padding: 3em 0em 0;
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo {
   display: flex;
-  gap: 2em;
-  font-family: "Dosis", sans-serif;
-  width: 40%;
-  display: flex;
   flex-direction: column;
-  gap: 3em;
   align-items: start;
+  gap: 0.5em;
+  width: 45%;
   color: white;
   text-transform: uppercase;
   font-weight: 100;
+}
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #occupation {
+  font-size: 30px;
+  font-weight: 300;
+}
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #name {
+  font-size: 50px;
+  font-weight: 300;
+  width: 100%;
+}
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #bio_info {
+  font-family: "Dosis", sans-serif;
+  text-transform: capitalize;
+  width: 85%;
+  letter-spacing: 1px;
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer {
   display: flex;
@@ -140,7 +155,7 @@
   border-radius: 50%;
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgContainer {
-  width: 60%;
+  width: 49%;
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgContainer #ansariImg {
   width: 100%;
