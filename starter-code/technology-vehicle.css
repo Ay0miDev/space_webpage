@@ -116,6 +116,7 @@
   width: 100%;
   align-items: center;
   padding-top: 4em;
+  gap: 5em;
 }
 .mainBgTech .figTech .techDetails #techInfoandImg #techCart {
   display: flex;
@@ -126,6 +127,7 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  justify-content: center;
 }
 .mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint .numOrder {
   background-color: transparent;
@@ -138,13 +140,33 @@
   display: flex;
   color: white;
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint #techInfo {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint :nth-child(1) {
+  background-color: white;
+  color: black;
+}
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo {
   display: flex;
   flex-direction: column;
   gap: 1em;
   color: white;
   font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  width: 80%;
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint #techInfo #terminology {
-  color: white;
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #terminology {
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.43);
+}
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicle {
+  font-family: none;
+  font-size: 60px;
+  font-weight: 300;
+}
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicleInfo {
+  text-transform: capitalize;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.43);
 }/*# sourceMappingURL=technology-vehicle.css.map */
