@@ -92,14 +92,13 @@
   font-size: 16px;
   position: relative;
 }
-.mainBgTech .figTech .crewDetails {
-  padding: 7em 8em 0 8em;
+.mainBgTech .figTech .techDetails {
+  padding: 7em 0 0 8em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 100%;
 }
-.mainBgTech .figTech .crewDetails #yourCrew #meetCrew {
+.mainBgTech .figTech .techDetails #theSpaceLaunch #spaceLaunch {
   display: flex;
   gap: 0.5em;
   text-transform: uppercase;
@@ -108,65 +107,44 @@
   font-weight: 400;
   letter-spacing: 3px;
 }
-.mainBgTech .figTech .crewDetails #yourCrew #meetCrew #noTwo {
+.mainBgTech .figTech .techDetails #theSpaceLaunch #spaceLaunch #noThree {
   color: rgb(90, 87, 87);
 }
-.mainBgTech .figTech .crewDetails .ansari_Img_Info {
+.mainBgTech .figTech .techDetails #techInfoandImg {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
-  padding: 3em 0em 0;
+  align-items: center;
+  padding-top: 4em;
 }
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  gap: 0.5em;
-  width: 45%;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 100;
+  gap: 1em;
 }
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo #occupation {
-  font-size: 30px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.43);
-}
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo #name {
-  font-size: 50px;
-  font-weight: 300;
-  width: 100%;
-}
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo #bio_info {
-  font-family: "Dosis", sans-serif;
-  text-transform: capitalize;
-  width: 85%;
-  letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.43);
-  padding-top: 2em;
-  padding-bottom: 4.5em;
-  line-height: 30px;
-}
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5em;
-}
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle {
-  width: 20px;
-  height: 20px;
-  background-color: rgba(255, 255, 255, 0.43);
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint .numOrder {
+  background-color: transparent;
   border-radius: 50%;
-  cursor: pointer;
+  border: 2px solid white;
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
 }
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle:nth-child(1) {
-  background-color: white;
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint #techInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  font-family: "Dosis", sans-serif;
 }
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgContainer {
-  width: 49%;
-}
-.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgContainer #ansariImg {
-  width: 100%;
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint #techInfo #terminology {
+  color: white;
 }/*# sourceMappingURL=technology-vehicle.css.map */
