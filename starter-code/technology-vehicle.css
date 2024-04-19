@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainBgTech {
+  max-width: 1440px;
+  max-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.mainBgTech .figTech {
+  background-image: url(./assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  padding: 4em 0 4em 4em;
+}
+.mainBgTech .figTech .navContainerTech {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainBgTech .figTech .navContainerTech .imgContainer {
+  width: 50%;
+}
+.mainBgTech .figTech .navContainerTech .imgContainerTech {
+  position: relative;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainBgTech .figTech .navContainerTech #marginalLineTech {
+  width: 500px;
+  height: 1.5px;
+  background-color: rgba(255, 255, 255, 0.43);
+  border-radius: 5px;
+  border: none;
+  margin: 0 5em 0;
+}
+.mainBgTech .figTech .navContainerTech .singleInfoContainerTech {
+  position: relative;
+  border-radius: 5px;
+  padding: 2px 15px;
+  background: none;
+}
+.mainBgTech .figTech .navContainerTech .singleInfoContainerTech:hover {
+  background: rgba(255, 255, 255, 0.172);
+  transition: background 1500ms ease 0s, right 1500ms ease 0s;
+}
+.mainBgTech .figTech .navContainerTech .singleInfoContainerTech::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: white;
+  bottom: -1.5em;
+  position: absolute;
+  transition: width 500ms ease 0s, right 500ms ease 0s;
+  right: 50%;
+  border-radius: 5px;
+}
+.mainBgTech .figTech .navContainerTech .singleInfoContainerTech:hover::after {
+  width: 100%;
+  right: 0;
+}
+.mainBgTech .figTech .navContainerTech .infoContentTech {
+  display: flex;
+  list-style: none;
+  background: linear-gradient(to right, rgba(126, 65, 248, 0.171), rgba(14, 7, 124, 0.242), rgba(6, 6, 6, 0.47));
+  background: opacity(0.5);
+  justify-content: space-evenly;
+  width: 60%;
+  padding: 1.5em 10em;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-size: 12px;
+}
+.mainBgTech .figTech .navContainerTech .infoContentTech .singleInfoContainerTech {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+.mainBgTech .figTech .navContainerTech .infoContentTech .singleInfoContainerTech .singleInfoTech {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(220, 201, 201);
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+}
+.mainBgTech .figTech .crewDetails {
+  padding: 7em 8em 0 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.mainBgTech .figTech .crewDetails #yourCrew #meetCrew {
+  display: flex;
+  gap: 0.5em;
+  text-transform: uppercase;
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.mainBgTech .figTech .crewDetails #yourCrew #meetCrew #noTwo {
+  color: rgb(90, 87, 87);
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3em 0em 0;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5em;
+  width: 45%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo #occupation {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.43);
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo #name {
+  font-size: 50px;
+  font-weight: 300;
+  width: 100%;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo #bio_info {
+  font-family: "Dosis", sans-serif;
+  text-transform: capitalize;
+  width: 85%;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.43);
+  padding-top: 2em;
+  padding-bottom: 4.5em;
+  line-height: 30px;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.43);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle:nth-child(1) {
+  background-color: white;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgContainer {
+  width: 49%;
+}
+.mainBgTech .figTech .crewDetails .ansari_Img_Info .ansariImgContainer #ansariImg {
+  width: 100%;
+}/*# sourceMappingURL=technology-vehicle.css.map */
