@@ -170,12 +170,12 @@
                             color: rgba(255, 255, 255, 0.43);
 
                         }
-                        #launchVehicle {
+                        #launchVehicle, #spacePort, #capsule {
                             font-family: none;
                             font-size: 60px;
                             font-weight: 300;
                         }
-                        #launchVehicleInfo {
+                        #launchVehicleInfo, #spacePortInfo, #capsuleInfo{
                             text-transform: capitalize;
                             line-height: 30px;
                             letter-spacing: 2px;
