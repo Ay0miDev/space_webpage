@@ -5,7 +5,7 @@ const numThree = document.getElementsByClassName('numOrder')[2];
 
 // Locating the Container of the Description text
 const tech_Info = document.getElementById('techInfo');
-// Creating a new text in javascript
+// Creating a new text in javascript for Space Port
 const space_port = document.createElement('h1');
 space_port.setAttribute('id', 'launchVehicle');
 space_port.innerHTML = `Spaceport`;
@@ -17,10 +17,42 @@ const space_port_Info_Text = document.createTextNode(`A spaceport or cosmodrome 
 by analogy to the seaport for ships or airport for aircraft. Based in the 
 famous Cape Canaveral, our spaceport is ideally situated to take advantage 
 of the Earth’s rotation for launch.`);
+space_port_Info.appendChild(space_port_Info_Text);
 
 tech_Info.appendChild(space_port);
 tech_Info.appendChild(space_port_Info);
 console.log(tech_Info);
+
+
+// Locating the Container of the Description text
+const tech_Info_Capsule = document.getElementById('techInfo');
+// Creating a new text in javascript for Space Port
+const capsule = document.createElement('h1');
+capsule.setAttribute('id', 'launchVehicle');
+capsule.innerHTML = `Space capsule`;
+
+const 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // if(space_port.id = 'launchVehicle') {
