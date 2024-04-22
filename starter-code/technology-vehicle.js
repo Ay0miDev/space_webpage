@@ -5,12 +5,15 @@ const numThree = document.getElementsByClassName('numOrder')[2];
 
 // Locating the Container of the Description text
 const tech_Info = document.getElementById('techInfo');
+const techCartegory = document.getElementById('techCart');
 // Creating a new text in javascript for Space Port
 const techInfo_spacePort = document.createElement('div');
 techInfo_spacePort.setAttribute('id', 'techInfo_spacePort');
+
 const spacePostTerminology = document.createElement('h3');
 spacePostTerminology.setAttribute('id', 'spacePostTerminology');
 spacePostTerminology.innerHTML = 'The terminology...';
+
 const space_port = document.createElement('h1');
 space_port.setAttribute('id', 'spacePort');
 space_port.style.fontFamily = 'none';
@@ -30,14 +33,26 @@ famous Cape Canaveral, our spaceport is ideally situated to take advantage
 of the Earth’s rotation for launch.`);
 space_port_Info.appendChild(space_port_Info_Text);
 
-tech_Info.appendChild(space_port);
-tech_Info.appendChild(space_port_Info);
-space_port.style.display = 'none'
-space_port_Info.style.display = 'none'
+// Appending all text into a single container
+techInfo_spacePort.appendChild(spacePostTerminology);
+techInfo_spacePort.appendChild(space_port);
+techInfo_spacePort.appendChild(space_port_Info);
 
-// Locating the Container of the Description text
-const tech_Info_Capsule = document.getElementById('techInfo');
+// The container created appended to the main div element
+techCartegory.appendChild(techInfo_spacePort);
+techInfo_spacePort.style,display = 'none'
+
+
+
+
 // Creating a new text in javascript for Space Port
+const techInfo_Capsule = document.createElement('div');
+techInfo_Capsule.setAttribute('id', 'techInfo_Capsule');
+
+const capsuleTerminology = document.createElement('h3');
+capsuleTerminology.setAttribute('id', 'capsuleTerminology');
+capsuleTerminology.innerHTML = 'The terminology...';
+
 const capsule = document.createElement('h1');
 capsule.setAttribute('id', 'capsule');
 capsule.style.fontFamily = 'none';
@@ -57,28 +72,29 @@ you'll spend your time during the flight. It includes a space gym, cinema,
 and plenty of other activities to keep you entertained.`);
 capsule_Info.appendChild(capsule_Info_Text);
 
-tech_Info_Capsule.appendChild(capsule);
-tech_Info_Capsule.appendChild(capsule_Info)
-capsule.style.display = 'none'
-capsule_Info.style.display = 'none'
+// Appending all text into a single container
+techInfo_Capsule.appendChild(capsuleTerminology);
+techInfo_Capsule.appendChild(capsule);
+techInfo_Capsule.appendChild(capsule_Info);
+
+// The container created appended to the main div element
+techCartegory.appendChild(techInfo_Capsule);
+techInfo_Capsule.style,display = 'none'
 
 numOne.addEventListener('click', function(){
-    space_port.style.display = 'none'
-    space_port_Info.style.display = 'none'
-    capsule.style.display = 'none'
-    capsule_Info.style.display = 'none'
+    tech_Info.style.display = 'block'
+    techInfo_spacePort.style,display = 'none'
+    techInfo_Capsule.style,display = 'none'
 })
 numTwo.addEventListener('click', function(){
-    space_port.style.display = 'block'
-    space_port_Info.style.display = 'block'
-    capsule.style.display = 'none'
-    capsule_Info.style.display = 'none'
+    tech_Info.style.display = 'none'
+    techInfo_spacePort.style,display = 'block'
+    techInfo_Capsule.style,display = 'none'
 })
 numThree.addEventListener('click', function(){
-    space_port.style.display = 'none'
-    space_port_Info.style.display = 'none'
-    capsule.style.display = 'block'
-    capsule_Info.style.display = 'block'
+    tech_Info.style.display = 'none'
+    techInfo_spacePort.style,display = 'none'
+    techInfo_Capsule.style,display = 'block'
 })
 
 
