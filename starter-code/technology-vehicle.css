@@ -144,7 +144,10 @@
   background-color: white;
   color: black;
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #bulletPoint :hover {
+  cursor: pointer;
+}
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -153,18 +156,19 @@
   text-transform: uppercase;
   width: 80%;
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #terminology {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #terminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsuleTerminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePostTerminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #terminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #capsuleTerminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #spacePostTerminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #terminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #capsuleTerminology, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #spacePostTerminology {
   letter-spacing: 2.5px;
   font-weight: 500;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.43);
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicle, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsule {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicle, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsule, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #launchVehicle, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #capsule, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #launchVehicle, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #capsule {
   font-family: none;
   font-size: 60px;
   font-weight: 300;
+  padding: 10px 0;
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsuleInfo {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsuleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #capsuleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #capsuleInfo {
   text-transform: capitalize;
   line-height: 30px;
   letter-spacing: 2px;

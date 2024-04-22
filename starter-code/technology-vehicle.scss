@@ -153,8 +153,11 @@
                             background-color: white;
                             color: black;
                         }
+                        :hover {
+                            cursor: pointer;
+                        }
                     }
-                    #techInfo {
+                    #techInfo, #techInfo_spacePort, #techInfo_Capsule {
                         display: flex;
                         flex-direction: column;
                         gap: 1em;
@@ -163,7 +166,7 @@
                         text-transform: uppercase;
                         width: 80%;
 
-                        #terminology {
+                        #terminology, #capsuleTerminology, #spacePostTerminology {
                             letter-spacing: 2.5px;
                             font-weight: 500;
                             font-size: 15px;
@@ -174,6 +177,7 @@
                             font-family: none;
                             font-size: 60px;
                             font-weight: 300;
+                            padding: 10px 0;
                         }
                         #launchVehicleInfo, #spacePortInfo, #capsuleInfo{
                             text-transform: capitalize;

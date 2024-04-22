@@ -1,4 +1,3 @@
-const eventImg = document.getElementById('launchVehicleImg');
 const numOne = document.getElementsByClassName('numOrder')[0];
 const numTwo = document.getElementsByClassName('numOrder')[1];
 const numThree = document.getElementsByClassName('numOrder')[2];
@@ -40,7 +39,7 @@ techInfo_spacePort.appendChild(space_port_Info);
 
 // The container created appended to the main div element
 techCartegory.appendChild(techInfo_spacePort);
-techInfo_spacePort.style,display = 'none'
+techInfo_spacePort.style.display = 'none'
 
 
 
@@ -79,23 +78,56 @@ techInfo_Capsule.appendChild(capsule_Info);
 
 // The container created appended to the main div element
 techCartegory.appendChild(techInfo_Capsule);
-techInfo_Capsule.style,display = 'none'
+techInfo_Capsule.style.display = 'none'
 
 numOne.addEventListener('click', function(){
     tech_Info.style.display = 'block'
-    techInfo_spacePort.style,display = 'none'
-    techInfo_Capsule.style,display = 'none'
+    techInfo_spacePort.style.display = 'none'
+    techInfo_Capsule.style.display = 'none'
 })
 numTwo.addEventListener('click', function(){
     tech_Info.style.display = 'none'
-    techInfo_spacePort.style,display = 'block'
-    techInfo_Capsule.style,display = 'none'
+    techInfo_spacePort.style.display = 'block'
+    techInfo_Capsule.style.display = 'none'
 })
 numThree.addEventListener('click', function(){
     tech_Info.style.display = 'none'
-    techInfo_spacePort.style,display = 'none'
-    techInfo_Capsule.style,display = 'block'
+    techInfo_spacePort.style.display = 'none'
+    techInfo_Capsule.style.display = 'block'
 })
+
+
+const eventImg = document.getElementById('launchVehicleImg');
+
+
+document.addEventListener('click', function() {
+    if(tech_Info.style.display === 'block'){
+        eventImg.setAttribute('src', './assets/technology/image-launch-vehicle-portrait.jpg');
+        numOne.style.backgroundColor = 'white'
+        numOne.style.color = 'black'
+        numTwo.style.backgroundColor = 'transparent'
+        numTwo.style.color = 'white'
+        numThree.style.backgroundColor = 'transparent'
+        numThree.style.color = 'white'
+
+    } else if(techInfo_spacePort.style.display === 'block'){
+        eventImg.setAttribute('src', './assets/technology/image-space-capsule-portrait.jpg');
+        numOne.style.backgroundColor = 'transparent'
+        numOne.style.color = 'white'
+        numTwo.style.backgroundColor = 'white'
+        numTwo.style.color = 'black'
+        numThree.style.backgroundColor = 'transparent'
+        numThree.style.color = 'white'
+    } else {
+        eventImg.setAttribute('src', './assets/technology/image-spaceport-portrait.jpg');
+        numOne.style.backgroundColor = 'transparent'
+        numOne.style.color = 'white'
+        numTwo.style.backgroundColor = 'transparent'
+        numTwo.style.color = 'white'
+        numThree.style.backgroundColor = 'white'
+        numThree.style.color = 'black'
+    }
+});
 
 
 
