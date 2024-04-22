@@ -6,6 +6,11 @@ const numThree = document.getElementsByClassName('numOrder')[2];
 // Locating the Container of the Description text
 const tech_Info = document.getElementById('techInfo');
 // Creating a new text in javascript for Space Port
+const techInfo_spacePort = document.createElement('div');
+techInfo_spacePort.setAttribute('id', 'techInfo_spacePort');
+const spacePostTerminology = document.createElement('h3');
+spacePostTerminology.setAttribute('id', 'spacePostTerminology');
+spacePostTerminology.innerHTML = 'The terminology...';
 const space_port = document.createElement('h1');
 space_port.setAttribute('id', 'spacePort');
 space_port.style.fontFamily = 'none';
@@ -66,6 +71,14 @@ numOne.addEventListener('click', function(){
 numTwo.addEventListener('click', function(){
     space_port.style.display = 'block'
     space_port_Info.style.display = 'block'
+    capsule.style.display = 'none'
+    capsule_Info.style.display = 'none'
+})
+numThree.addEventListener('click', function(){
+    space_port.style.display = 'none'
+    space_port_Info.style.display = 'none'
+    capsule.style.display = 'block'
+    capsule_Info.style.display = 'block'
 })
 
 
