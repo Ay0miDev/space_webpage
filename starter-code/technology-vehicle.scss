@@ -160,7 +160,6 @@
                     #techInfo, #techInfo_spacePort, #techInfo_Capsule {
                         display: flex;
                         flex-direction: column;
-                        gap: 1em;
                         color: white;
                         font-family: "Dosis", sans-serif; 
                         text-transform: uppercase;
@@ -177,7 +176,7 @@
                             font-family: none;
                             font-size: 60px;
                             font-weight: 300;
-                            padding: 10px 0;
+                            padding: 15px 0 30px;
                         }
                         #launchVehicleInfo, #spacePortInfo, #capsuleInfo{
                             text-transform: capitalize;

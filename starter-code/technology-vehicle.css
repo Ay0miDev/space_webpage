@@ -150,7 +150,6 @@
 .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule {
   display: flex;
   flex-direction: column;
-  gap: 1em;
   color: white;
   font-family: "Dosis", sans-serif;
   text-transform: uppercase;
@@ -166,7 +165,7 @@
   font-family: none;
   font-size: 60px;
   font-weight: 300;
-  padding: 10px 0;
+  padding: 15px 0 30px;
 }
 .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsuleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_spacePort #capsuleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo_Capsule #capsuleInfo {
   text-transform: capitalize;
