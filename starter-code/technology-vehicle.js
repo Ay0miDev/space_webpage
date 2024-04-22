@@ -27,7 +27,8 @@ space_port_Info.appendChild(space_port_Info_Text);
 
 tech_Info.appendChild(space_port);
 tech_Info.appendChild(space_port_Info);
-tech_Info.style.display = 'none'
+space_port.style.display = 'none'
+space_port_Info.style.display = 'none'
 
 // Locating the Container of the Description text
 const tech_Info_Capsule = document.getElementById('techInfo');
@@ -53,7 +54,19 @@ capsule_Info.appendChild(capsule_Info_Text);
 
 tech_Info_Capsule.appendChild(capsule);
 tech_Info_Capsule.appendChild(capsule_Info)
-tech_Info_Capsule.style.display = 'none'
+capsule.style.display = 'none'
+capsule_Info.style.display = 'none'
+
+numOne.addEventListener('click', function(){
+    space_port.style.display = 'none'
+    space_port_Info.style.display = 'none'
+    capsule.style.display = 'none'
+    capsule_Info.style.display = 'none'
+})
+numTwo.addEventListener('click', function(){
+    space_port.style.display = 'block'
+    space_port_Info.style.display = 'block'
+})
 
 
 
@@ -77,20 +90,20 @@ const launchVehicle = document.getElementById('launchVehicle');
 
 
 
-if(numOne.addEventListener('click', function(){
+// if(numOne.addEventListener('click', function(){
 
-})) {
-    tech_Info.style.display = 'none'
-    tech_Info_Capsule.style.display = 'none'
-} else if(numTwo.addEventListener('click', function(){
+// })) {
+//     tech_Info.style.display = 'none'
+//     tech_Info_Capsule.style.display = 'none'
+// } else if(numTwo.addEventListener('click', function(){
 
-})) {
-    tech_Info.style.display = 'block'
-    tech_Info_Capsule.style.display = 'none'
-} else{
-    tech_Info.style.display = 'none'
-    tech_Info_Capsule.style.display = 'block'
-}
+// })) {
+//     tech_Info.style.display = 'block'
+//     tech_Info_Capsule.style.display = 'none'
+// } else{
+//     tech_Info.style.display = 'none'
+//     tech_Info_Capsule.style.display = 'block'
+// }
 
 
 

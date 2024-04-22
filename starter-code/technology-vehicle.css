@@ -159,12 +159,12 @@
   font-size: 15px;
   color: rgba(255, 255, 255, 0.43);
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicle {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicle, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePort, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsule {
   font-family: none;
   font-size: 60px;
   font-weight: 300;
 }
-.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicleInfo {
+.mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #launchVehicleInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #spacePortInfo, .mainBgTech .figTech .techDetails #techInfoandImg #techCart #techInfo #capsuleInfo {
   text-transform: capitalize;
   line-height: 30px;
   letter-spacing: 2px;
