@@ -88,32 +88,14 @@ techInfo_Capsule.style.display = 'none'
 
 const techOptions = document.querySelectorAll('.numOrder');
 function showTechInfo(optionIndex) {
-    // if(optionIndex === 0) {
-    //     tech_Info.style.display = "block"
-    // }else{
-    //     techInfo_spacePort.style.display = "none"
-    //     techInfo_Capsule.style.display = "none"
-    // }
 
-    // if (optionIndex === 1) {
-    //     techInfo_spacePort.style.display = "block"
-    // } else {
-    //     tech_Info.style.display = "none"
-    //     techInfo_Capsule.style.display = "none"
-    // }
-
-    // if (optionIndex === 2) {
-    //     techInfo_Capsule.style.display = "block"
-    // } else {
-    //     tech_Info.style.display = "none"
-    //     techInfo_spacePort.style.display = "none"
-    // }
-
-    tech_Info.style.display 
+    tech_Info.style.display = optionIndex === 0 ? 'block' : 'none';
+    techInfo_spacePort.style.display = optionIndex === 1 ? 'block' : 'none';
+    techInfo_Capsule.style.display = optionIndex === 2 ? 'block' : 'none';
 }
 
 techOptions.forEach((option, index) => {
-    option.addEventListener('click', () => {
+    option.addEventListener('click', function() {
         showTechInfo(index);
     })
 })
