@@ -1,6 +1,6 @@
-// const numOne = document.getElementsByClassName('numOrder')[0];
-// const numTwo = document.getElementsByClassName('numOrder')[1];
-// const numThree = document.getElementsByClassName('numOrder')[2];
+const numOne = document.getElementsByClassName('numOrder')[0];
+const numTwo = document.getElementsByClassName('numOrder')[1];
+const numThree = document.getElementsByClassName('numOrder')[2];
 
 // Locating the Container of the Description text
 const tech_Info = document.getElementById('techInfo');
@@ -100,6 +100,17 @@ techOptions.forEach((option, index) => {
     })
 })
 
+function updateSelectedOptionStyle(selectedOption) {
+    techOptions.forEach((option, index) => {
+        if (index === selectedOption) {
+            option.style.backgroundColor = 'white';
+            option.style.color = 'black';
+        } else {
+            option.style.backgroundColor = 'transparent';
+            option.style.color = 'white';
+        }
+    });
+}
 
 const eventImg = document.getElementById('launchVehicleImg');
 
