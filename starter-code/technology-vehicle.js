@@ -1,6 +1,6 @@
-const numOne = document.getElementsByClassName('numOrder')[0];
-const numTwo = document.getElementsByClassName('numOrder')[1];
-const numThree = document.getElementsByClassName('numOrder')[2];
+// const numOne = document.getElementsByClassName('numOrder')[0];
+// const numTwo = document.getElementsByClassName('numOrder')[1];
+// const numThree = document.getElementsByClassName('numOrder')[2];
 
 // Locating the Container of the Description text
 const tech_Info = document.getElementById('techInfo');
@@ -68,20 +68,54 @@ techInfo_Capsule.appendChild(capsule_Info);
 techCartegory.appendChild(techInfo_Capsule);
 techInfo_Capsule.style.display = 'none'
 
-numOne.addEventListener('click', function(){
-    tech_Info.style.display = 'block'
-    techInfo_spacePort.style.display = 'none'
-    techInfo_Capsule.style.display = 'none'
-})
-numTwo.addEventListener('click', function(){
-    tech_Info.style.display = 'none'
-    techInfo_spacePort.style.display = 'block'
-    techInfo_Capsule.style.display = 'none'
-})
-numThree.addEventListener('click', function(){
-    tech_Info.style.display = 'none'
-    techInfo_spacePort.style.display = 'none'
-    techInfo_Capsule.style.display = 'block'
+
+
+// numOne.addEventListener('click', function(){
+//     tech_Info.style.display = 'block'
+//     techInfo_spacePort.style.display = 'none'
+//     techInfo_Capsule.style.display = 'none'
+// })
+// numTwo.addEventListener('click', function(){
+//     tech_Info.style.display = 'none'
+//     techInfo_spacePort.style.display = 'block'
+//     techInfo_Capsule.style.display = 'none'
+// })
+// numThree.addEventListener('click', function(){
+//     tech_Info.style.display = 'none'
+//     techInfo_spacePort.style.display = 'none'
+//     techInfo_Capsule.style.display = 'block'
+// })
+
+const techOptions = document.querySelectorAll('.numOrder');
+function showTechInfo(optionIndex) {
+    // if(optionIndex === 0) {
+    //     tech_Info.style.display = "block"
+    // }else{
+    //     techInfo_spacePort.style.display = "none"
+    //     techInfo_Capsule.style.display = "none"
+    // }
+
+    // if (optionIndex === 1) {
+    //     techInfo_spacePort.style.display = "block"
+    // } else {
+    //     tech_Info.style.display = "none"
+    //     techInfo_Capsule.style.display = "none"
+    // }
+
+    // if (optionIndex === 2) {
+    //     techInfo_Capsule.style.display = "block"
+    // } else {
+    //     tech_Info.style.display = "none"
+    //     techInfo_spacePort.style.display = "none"
+    // }
+
+    tech_Info.style.display 
+}
+
+techOptions.forEach((option, index) => {
+    option.addEventListener('click', () => {
+        showTechInfo(index);
+    })
 })
 
 
@@ -116,3 +150,4 @@ document.addEventListener('click', function() {
         numThree.style.color = 'black'
     }
 });
+
