@@ -1,6 +1,3 @@
-const numOne = document.getElementsByClassName('numOrder')[0];
-const numTwo = document.getElementsByClassName('numOrder')[1];
-const numThree = document.getElementsByClassName('numOrder')[2];
 
 // Locating the Container of the Description text
 const tech_Info = document.getElementById('techInfo');
@@ -70,77 +67,55 @@ techInfo_Capsule.style.display = 'none'
 
 
 
-// numOne.addEventListener('click', function(){
-//     tech_Info.style.display = 'block'
-//     techInfo_spacePort.style.display = 'none'
-//     techInfo_Capsule.style.display = 'none'
-// })
-// numTwo.addEventListener('click', function(){
-//     tech_Info.style.display = 'none'
-//     techInfo_spacePort.style.display = 'block'
-//     techInfo_Capsule.style.display = 'none'
-// })
-// numThree.addEventListener('click', function(){
-//     tech_Info.style.display = 'none'
-//     techInfo_spacePort.style.display = 'none'
-//     techInfo_Capsule.style.display = 'block'
-// })
-
+// Creating a variable for each of the option numbers
 const techOptions = document.querySelectorAll('.numOrder');
-function showTechInfo(optionIndex) {
 
+// A function to display the terminology div
+function showTechInfo(optionIndex) {
     tech_Info.style.display = optionIndex === 0 ? 'block' : 'none';
     techInfo_spacePort.style.display = optionIndex === 1 ? 'block' : 'none';
     techInfo_Capsule.style.display = optionIndex === 2 ? 'block' : 'none';
 }
 
+// A function to change the background of each selected number
+function activeBackgroundColor(selectedOption) {
+    techOptions.forEach((option, index) => {
+        if(index === selectedOption) {
+            option.style.backgroundColor = 'white'
+            option.style.color = 'black'
+        } else {
+            option.style.backgroundColor = 'transparent'
+            option.style.color = 'white'
+        }
+    })
+}
+
+// Updating the click event listener
 techOptions.forEach((option, index) => {
     option.addEventListener('click', function() {
         showTechInfo(index);
+        activeBackgroundColor(index)
     })
 })
 
-function updateSelectedOptionStyle(selectedOption) {
-    techOptions.forEach((option, index) => {
-        if (index === selectedOption) {
-            option.style.backgroundColor = 'white';
-            option.style.color = 'black';
-        } else {
-            option.style.backgroundColor = 'transparent';
-            option.style.color = 'white';
-        }
-    });
-}
+// Creating a default page section after reloading
+document.addEventListener('DOMContentLoaded', ()=>{
+    showTechInfo(0);
+    activeBackgroundColor(0)
+})
 
+
+// Creating a variable to locate the container of the Images
 const eventImg = document.getElementById('launchVehicleImg');
 
-
+// Conditional statement for sswitching the images
 document.addEventListener('click', function() {
     if(tech_Info.style.display === 'block'){
         eventImg.setAttribute('src', './assets/technology/image-launch-vehicle-portrait.jpg');
-        numOne.style.backgroundColor = 'white'
-        numOne.style.color = 'black'
-        numTwo.style.backgroundColor = 'transparent'
-        numTwo.style.color = 'white'
-        numThree.style.backgroundColor = 'transparent'
-        numThree.style.color = 'white'
-
     } else if(techInfo_spacePort.style.display === 'block'){
         eventImg.setAttribute('src', './assets/technology/image-space-capsule-portrait.jpg');
-        numOne.style.backgroundColor = 'transparent'
-        numOne.style.color = 'white'
-        numTwo.style.backgroundColor = 'white'
-        numTwo.style.color = 'black'
-        numThree.style.backgroundColor = 'transparent'
-        numThree.style.color = 'white'
     } else {
         eventImg.setAttribute('src', './assets/technology/image-spaceport-portrait.jpg');
-        numOne.style.backgroundColor = 'transparent'
-        numOne.style.color = 'white'
-        numTwo.style.backgroundColor = 'transparent'
-        numTwo.style.color = 'white'
-        numThree.style.backgroundColor = 'white'
-        numThree.style.color = 'black'
     }
 });
 
