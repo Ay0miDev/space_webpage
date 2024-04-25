@@ -118,7 +118,7 @@
   width: 100%;
   padding: 3em 7em 0;
 }
-.mainBg01 .fig .marsDetails .marsInfo .moonImg {
+.mainBg01 .fig .marsDetails .marsInfo #moonImg {
   width: 400x;
   height: 400px;
   border-radius: 50%;
