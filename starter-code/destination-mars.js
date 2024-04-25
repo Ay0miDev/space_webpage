@@ -154,4 +154,38 @@
 
 
 // CREATING THE MOON SEGMENT
+
+// The Planet Image
 const universeImage = document.getElementById('moonImg');
+const marsInfo = document.querySelector('.marsInfo');
+
+// Creating a new div element, nesting all elements
+const planetMoon = document.createElement('div');
+planetMoon.classList.add('planetMoon');
+
+const theMoonandPlanets = document.createElement('ul');
+theMoonandPlanets.classList.add('theMoonandPlanets');
+
+const moonList01 = document.createElement('li');
+const moonSolarMars = document.createElement('a');
+moonSolarMars.classList.add('moonSolarMars');
+moonSolarMars.innerHTML = 'mars'
+
+const moonList02 = document.createElement('li');
+const moonSolarMoon = document.createElement('a');
+moonSolarMoon.classList.add('moonSolarMoon');
+moonSolarMoon.innerHTML = 'moon'
+
+const moonList03 = document.createElement('li');
+const moonSolarEuropa = document.createElement('a');
+moonSolarEuropa.classList.add('moonSolarEuropa');
+moonSolarEuropa.innerHTML = 'europa'
+
+const moonList04 = document.createElement('li');
+const moonSolarTitans = document.createElement('a');
+moonSolarTitans.classList.add('moonSolarTitans');
+moonSolarTitans.innerHTML = 'titans'
+
+
+
+
