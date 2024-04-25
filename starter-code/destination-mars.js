@@ -187,5 +187,33 @@ moonSolarTitans.classList.add('moonSolarTitans');
 moonSolarTitans.innerHTML = 'titans'
 
 
+moonList01.appendChild(moonSolarMars);
+moonList02.appendChild(moonSolarMoon);
+moonList03.appendChild(moonSolarEuropa);
+moonList04.appendChild(moonSolarTitans);
+
+theMoonandPlanets.appendChild(moonList01);
+theMoonandPlanets.appendChild(moonList02);
+theMoonandPlanets.appendChild(moonList03);
+theMoonandPlanets.appendChild(moonList04);
 
 
+// Creating a h1 element
+const moon = document.createElement('h1');
+moon.classList.add('moon');
+moon.innerHTML = 'moon'
+
+const moonInformation = document.createElement('p');
+moonInformation.classList.add('moonInformation');
+moonInformation.innerHTML = `See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+regain perspective and come back refreshed. While you’re there, take in some history 
+by visiting the Luna 2 and Apollo 11 landing sites.`
+
+const moon_timeAndDistance = document.createElement('div');
+moon_timeAndDistance.classList.add('moon_timeAndDistance');
+
+const moonDistanceDetail = document.createElement('div');
+moonDistanceDetail.classList.add('moonDistanceDetail');
+const moonAvgDistance = document.createElement('h4');
+moonAvgDistance.innerHTML = `avg. distance`
+const moonMilKm = document.createElement()
