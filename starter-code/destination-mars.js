@@ -8,6 +8,7 @@ const marsInfo = document.querySelector('.marsInfo');
 // Creating a new div element, nesting all elements
 const planetMoon = document.createElement('div');
 planetMoon.classList.add('planetMoon');
+planetMoon.style.gap = "3em"
 
 const theMoonandPlanets = document.createElement('ul');
 theMoonandPlanets.classList.add('theMoonandPlanets');
@@ -94,8 +95,8 @@ planetMoon.appendChild(moon_timeAndDistance);
 
 marsInfo.appendChild(planetMoon)
 
-// const marsPlanet = document.querySelector('.planet')
-// marsPlanet.style.display = 'none'
-// console.log(marsPlanet);
+const marsPlanet = document.querySelector('.planet')
+marsPlanet.style.gap = "3em"
+marsPlanet.style.display = 'block'
 
 planetMoon.style.display = 'none'

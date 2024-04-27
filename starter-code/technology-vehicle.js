@@ -16,7 +16,6 @@ space_port.innerHTML = `Spaceport`;
 
 const space_port_Info = document.createElement('p');
 space_port_Info.setAttribute('id', 'spacePortInfo');
-space_port_Info.style.textTransform = 'capitalize';
 const space_port_Info_Text = document.createTextNode(`A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
 by analogy to the seaport for ships or airport for aircraft. Based in the 
 famous Cape Canaveral, our spaceport is ideally situated to take advantage 
@@ -49,7 +48,6 @@ capsule.innerHTML = `Space capsule`;
 
 const capsule_Info = document.createElement('p');
 capsule_Info.setAttribute('id', 'capsuleInfo');
-capsule_Info.style.textTransform = 'capitalize';
 const capsule_Info_Text = document.createTextNode(`A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
 capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
 you'll spend your time during the flight. It includes a space gym, cinema, 

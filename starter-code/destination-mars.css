@@ -128,7 +128,6 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 3em;
   align-items: start;
   color: white;
   text-transform: uppercase;
