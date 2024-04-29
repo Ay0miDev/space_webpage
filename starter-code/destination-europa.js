@@ -55,9 +55,10 @@ europa.innerHTML = 'europa'
 
 const europaInformation = document.createElement('p');
 europaInformation.classList.add('europaInformation');
-europaInformation.innerHTML = `See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-regain perspective and come back refreshed. While you’re there, take in some history 
-by visiting the Luna 2 and Apollo 11 landing sites.`
+europaInformation.innerHTML = `The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+ice skating, curling, hockey, or simple relaxation in your snug 
+wintery cabin.`
 
 const europa_timeAndDistance = document.createElement('div');
 europa_timeAndDistance.classList.add('europa_timeAndDistance');
@@ -68,7 +69,7 @@ const europaAvgDistance = document.createElement('h4');
 europaAvgDistance.innerHTML = `avg. distance`
 const europakilometer = document.createElement('h4');
 europakilometer.setAttribute('id', 'europakilometer');
-europakilometer.innerHTML = '384,400 km'
+europakilometer.innerHTML = '628 mil. km'
 
 europaDistanceDetail.appendChild(europaAvgDistance);
 europaDistanceDetail.appendChild(europakilometer);
@@ -79,7 +80,7 @@ const europaTravelTime = document.createElement('h4');
 europaTravelTime.innerHTML = `est. travel`
 const europaDuration = document.createElement('h4');
 europaDuration.setAttribute('id', 'europaDuration');
-europaDuration.innerHTML = '9 days'
+europaDuration.innerHTML = '3 years'
 
 europaTimeDetail.appendChild(europaTravelTime);
 europaTimeDetail.appendChild(europaDuration);
@@ -98,4 +99,4 @@ const marsPlanet = document.querySelector('.planet')
 // marsPlanet.style.display = 'block'
 console.log(marsPlanet);
 
-planetEuropa.style.display = 'none'
+planetEuropa.style.display = 'block'
