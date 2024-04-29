@@ -95,6 +95,6 @@ planetMoon.appendChild(moon_timeAndDistance);
 marsInfo.appendChild(planetMoon)
 
 const marsPlanet = document.querySelector('.planet')
-// marsPlanet.style.display = 'block'
+marsPlanet.style.display = 'none'
 
-// planetMoon.style.display = 'none'
+planetMoon.style.display = 'none'

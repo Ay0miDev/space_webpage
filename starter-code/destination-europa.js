@@ -2,8 +2,8 @@
 // CREATING THE MOON SEGMENT
 
 // The Planet Image
-const universeImage = document.getElementById('moonImg');
-const marsInfo = document.querySelector('.marsInfo');
+// const universeImage = document.getElementById('moonImg');
+// const marsInfo = document.querySelector('.marsInfo');
 
 // Creating a new div element, nesting all elements
 const planetEuropa = document.createElement('div');
@@ -95,8 +95,9 @@ planetEuropa.appendChild(europa_timeAndDistance);
 
 marsInfo.appendChild(planetEuropa)
 
-const marsPlanet = document.querySelector('.planet')
-// marsPlanet.style.display = 'block'
+// const marsPlanet = document.querySelector('.planet')
+marsPlanet.style.display = 'none'
 console.log(marsPlanet);
 
-planetEuropa.style.display = 'block'
+// planetEuropa.style.display = 'block'
+console.log(planetEuropa);
