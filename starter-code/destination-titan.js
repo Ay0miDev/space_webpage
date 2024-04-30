@@ -90,8 +90,7 @@ planetTitan.appendChild(titanInformation);
 planetTitan.appendChild(titan_timeAndDistance);
 
 marsInfo.appendChild(planetTitan)
-
-// const marsPlanet = document.querySelector('.planet')
+// The Mars Page
 marsPlanet.style.display = 'flex'
 marsPlanet.style.flexDirection = 'column'
 marsPlanet.style.display = 'none'
@@ -99,6 +98,9 @@ console.log(marsPlanet);
 
 // The Moon Page
 planetMoon.style.display = 'none'
+
+// The Europa Page
+planetEuropa.style.display = 'none'
 
 // The titan Page
 planetTitan.style.display = 'flex'
