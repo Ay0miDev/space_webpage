@@ -2,94 +2,94 @@
 // CREATING THE MOON SEGMENT
 
 // Creating a new div element, nesting all elements
-const planetEuropa = document.createElement('div');
-planetEuropa.classList.add('planetEuropa');
+const planetTitan = document.createElement('div');
+planetTitan.classList.add('planetTitan');
 
-const theEuropaandPlanets = document.createElement('ul');
-theEuropaandPlanets.classList.add('theEuropaandPlanets');
+const theTitanandPlanets = document.createElement('ul');
+theTitanandPlanets.classList.add('theTitanandPlanets');
 
-const europaList01 = document.createElement('li');
-const europaSolarMars = document.createElement('a');
-europaSolarMars.setAttribute('href', "")
-europaSolarMars.classList.add('europaSolarSystem');
-europaSolarMars.innerHTML = 'mars'
+const titanList01 = document.createElement('li');
+const titanSolarMars = document.createElement('a');
+titanSolarMars.setAttribute('href', "")
+titanSolarMars.classList.add('titanSolarSystem');
+titanSolarMars.innerHTML = 'mars'
 
-const europaList02 = document.createElement('li');
-const europaSolarMoon = document.createElement('a');
-europaSolarMoon.setAttribute('href', "")
-europaSolarMoon.classList.add('europaSolarSystem');
-europaSolarMoon.innerHTML = 'europa'
+const titanList02 = document.createElement('li');
+const titanSolarMoon = document.createElement('a');
+titanSolarMoon.setAttribute('href', "")
+titanSolarMoon.classList.add('titanSolarSystem');
+titanSolarMoon.innerHTML = 'moon'
 
-const europaList03 = document.createElement('li');
-const europaSolarEuropa = document.createElement('a');
-europaSolarEuropa.setAttribute('href', "")
-europaSolarEuropa.classList.add('europaSolarSystem');
-europaSolarEuropa.innerHTML = 'europa'
+const titanList03 = document.createElement('li');
+const titanSolartitan = document.createElement('a');
+titanSolartitan.setAttribute('href', "")
+titanSolartitan.classList.add('titanSolarSystem');
+titanSolartitan.innerHTML = 'titan'
 
-const europaList04 = document.createElement('li');
-const europaSolarTitans = document.createElement('a');
-europaSolarTitans.setAttribute('href', "")
-europaSolarTitans.classList.add('europaSolarSystem');
-europaSolarTitans.innerHTML = 'titans'
+const titanList04 = document.createElement('li');
+const titanSolarTitans = document.createElement('a');
+titanSolarTitans.setAttribute('href', "")
+titanSolarTitans.classList.add('titanSolarSystem');
+titanSolarTitans.innerHTML = 'titans'
 
 
-europaList01.appendChild(europaSolarMars);
-europaList02.appendChild(europaSolarMoon);
-europaList03.appendChild(europaSolarEuropa);
-europaList04.appendChild(europaSolarTitans);
+titanList01.appendChild(titanSolarMars);
+titanList02.appendChild(titanSolarMoon);
+titanList03.appendChild(titanSolartitan);
+titanList04.appendChild(titanSolarTitans);
 
-theEuropaandPlanets.appendChild(europaList01);
-theEuropaandPlanets.appendChild(europaList02);
-theEuropaandPlanets.appendChild(europaList03);
-theEuropaandPlanets.appendChild(europaList04);
+theTitanandPlanets.appendChild(titanList01);
+theTitanandPlanets.appendChild(titanList02);
+theTitanandPlanets.appendChild(titanList03);
+theTitanandPlanets.appendChild(titanList04);
 
 
 // Creating a h1 element
-const europa = document.createElement('h1');
-europa.classList.add('europa');
-europa.innerHTML = 'europa'
+const titan = document.createElement('h1');
+titan.classList.add('titan');
+titan.innerHTML = 'titan'
 
-const europaInformation = document.createElement('p');
-europaInformation.classList.add('europaInformation');
-europaInformation.innerHTML = `The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+const titanInformation = document.createElement('p');
+titanInformation.classList.add('titanInformation');
+titanInformation.innerHTML = `The smallest of the four Galilean moons orbiting Jupiter, titan is a 
 winter lover’s dream. With an icy surface, it’s perfect for a bit of 
 ice skating, curling, hockey, or simple relaxation in your snug 
 wintery cabin.`
 
-const europa_timeAndDistance = document.createElement('div');
-europa_timeAndDistance.classList.add('europa_timeAndDistance');
+const titan_timeAndDistance = document.createElement('div');
+titan_timeAndDistance.classList.add('titan_timeAndDistance');
 
-const europaDistanceDetail = document.createElement('div');
-europaDistanceDetail.classList.add('europaDistanceDetail');
-const europaAvgDistance = document.createElement('h4');
-europaAvgDistance.innerHTML = `avg. distance`
-const europakilometer = document.createElement('h4');
-europakilometer.setAttribute('id', 'europakilometer');
-europakilometer.innerHTML = '628 mil. km'
+const titanDistanceDetail = document.createElement('div');
+titanDistanceDetail.classList.add('titanDistanceDetail');
+const titanAvgDistance = document.createElement('h4');
+titanAvgDistance.innerHTML = `avg. distance`
+const titankilometer = document.createElement('h4');
+titankilometer.setAttribute('id', 'titankilometer');
+titankilometer.innerHTML = '628 mil. km'
 
-europaDistanceDetail.appendChild(europaAvgDistance);
-europaDistanceDetail.appendChild(europakilometer);
+titanDistanceDetail.appendChild(titanAvgDistance);
+titanDistanceDetail.appendChild(titankilometer);
 
-const europaTimeDetail = document.createElement('div');
-europaTimeDetail.classList.add('europaTimeDetail');
-const europaTravelTime = document.createElement('h4');
-europaTravelTime.innerHTML = `est. travel`
-const europaDuration = document.createElement('h4');
-europaDuration.setAttribute('id', 'europaDuration');
-europaDuration.innerHTML = '3 years'
+const titanTimeDetail = document.createElement('div');
+titanTimeDetail.classList.add('titanTimeDetail');
+const titanTravelTime = document.createElement('h4');
+titanTravelTime.innerHTML = `est. travel`
+const titanDuration = document.createElement('h4');
+titanDuration.setAttribute('id', 'titanDuration');
+titanDuration.innerHTML = '3 years'
 
-europaTimeDetail.appendChild(europaTravelTime);
-europaTimeDetail.appendChild(europaDuration);
+titanTimeDetail.appendChild(titanTravelTime);
+titanTimeDetail.appendChild(titanDuration);
 
-europa_timeAndDistance.appendChild(europaDistanceDetail);
-europa_timeAndDistance.appendChild(europaTimeDetail);
+titan_timeAndDistance.appendChild(titanDistanceDetail);
+titan_timeAndDistance.appendChild(titanTimeDetail);
 
-planetEuropa.appendChild(theEuropaandPlanets);
-planetEuropa.appendChild(europa);
-planetEuropa.appendChild(europaInformation);
-planetEuropa.appendChild(europa_timeAndDistance);
+planetTitan.appendChild(theTitanandPlanets);
+planetTitan.appendChild(titan);
+planetTitan.appendChild(titanInformation);
+planetTitan.appendChild(titan_timeAndDistance);
 
-marsInfo.appendChild(planetEuropa)
+marsInfo.appendChild(planetTitan)
 
 // const marsPlanet = document.querySelector('.planet')
 marsPlanet.style.display = 'flex'
@@ -100,7 +100,7 @@ console.log(marsPlanet);
 // The Moon Page
 planetMoon.style.display = 'none'
 
-// The Europa Page
-planetEuropa.style.display = 'flex'
-planetEuropa.style.flexDirection = 'column'
-console.log(planetEuropa);
+// The titan Page
+planetTitan.style.display = 'flex'
+planetTitan.style.flexDirection = 'column'
+console.log(planetTitan);
