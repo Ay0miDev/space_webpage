@@ -94,7 +94,6 @@ marsInfo.appendChild(planetEuropa)
 // const marsPlanet = document.querySelector('.planet')
 marsPlanet.style.display = 'flex'
 marsPlanet.style.flexDirection = 'column'
-marsPlanet.style.display = 'none'
 console.log(marsPlanet);
 
 // The Moon Page
@@ -103,4 +102,5 @@ planetMoon.style.display = 'none'
 // The Europa Page
 planetEuropa.style.display = 'flex'
 planetEuropa.style.flexDirection = 'column'
+planetEuropa.style.display = 'none'
 console.log(planetEuropa);

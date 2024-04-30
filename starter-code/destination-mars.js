@@ -100,3 +100,4 @@ marsPlanet.style.display = 'column'
 
 planetMoon.style.display = 'flex'
 planetMoon.style.flexDirection = 'column'
+

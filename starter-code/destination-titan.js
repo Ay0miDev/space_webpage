@@ -92,7 +92,6 @@ marsInfo.appendChild(planetTitan)
 // The Mars Page
 marsPlanet.style.display = 'flex'
 marsPlanet.style.flexDirection = 'column'
-marsPlanet.style.display = 'none'
 console.log(marsPlanet);
 
 // The Moon Page
@@ -104,4 +103,5 @@ planetEuropa.style.display = 'none'
 // The titan Page
 planetTitan.style.display = 'flex'
 planetTitan.style.flexDirection = 'column'
+planetTitan.style.display = 'none'
 console.log(planetTitan);
