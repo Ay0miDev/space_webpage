@@ -7,3 +7,5 @@ function showDestinationInfo (optionDestination) {
     planetTitan.style.display = optionDestination === 3 ? 'flex' : 'none'
 
 }
+
+
