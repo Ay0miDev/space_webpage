@@ -51,10 +51,9 @@ titan.innerHTML = 'titan'
 
 const titanInformation = document.createElement('p');
 titanInformation.classList.add('titanInformation');
-titanInformation.innerHTML = `The smallest of the four Galilean moons orbiting Jupiter, titan is a 
-winter lover’s dream. With an icy surface, it’s perfect for a bit of 
-ice skating, curling, hockey, or simple relaxation in your snug 
-wintery cabin.`
+titanInformation.innerHTML = `The only moon known to have a dense atmosphere other than Earth, Titan 
+is a home away from home (just a few hundred degrees colder!). As a 
+bonus, you get striking views of the Rings of Saturn.`
 
 const titan_timeAndDistance = document.createElement('div');
 titan_timeAndDistance.classList.add('titan_timeAndDistance');
@@ -65,7 +64,7 @@ const titanAvgDistance = document.createElement('h4');
 titanAvgDistance.innerHTML = `avg. distance`
 const titankilometer = document.createElement('h4');
 titankilometer.setAttribute('id', 'titankilometer');
-titankilometer.innerHTML = '628 mil. km'
+titankilometer.innerHTML = '1.6 bil. km'
 
 titanDistanceDetail.appendChild(titanAvgDistance);
 titanDistanceDetail.appendChild(titankilometer);
@@ -76,7 +75,7 @@ const titanTravelTime = document.createElement('h4');
 titanTravelTime.innerHTML = `est. travel`
 const titanDuration = document.createElement('h4');
 titanDuration.setAttribute('id', 'titanDuration');
-titanDuration.innerHTML = '3 years'
+titanDuration.innerHTML = '7 years'
 
 titanTimeDetail.appendChild(titanTravelTime);
 titanTimeDetail.appendChild(titanDuration);
