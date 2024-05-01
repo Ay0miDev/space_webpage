@@ -20,3 +20,9 @@ europaSolarMars.forEach((option, destination) =>{
         showDestinationInfo(destination)
     })
 })
+
+titanSolarMars.forEach((option, destination) =>{
+    option.addEventListener('click', function(){
+        showDestinationInfo(destination)
+    })
+})
