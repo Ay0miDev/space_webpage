@@ -1,9 +1,9 @@
 // Creating a function to show each Destination Information
 
 function showDestinationInfo (optionDestination) {
-    marsPlanet.style.display = optionDestination === 0 ? 'block' : 'none'
-    planetMoon.style.display = optionDestination === 1 ? 'block' : 'none'
-    planetEuropa.style.display = optionDestination === 2 ? 'block' : 'none'
+    marsPlanet.style.display = optionDestination === 0 ? 'block' : 'none';
+    planetMoon.style.display = optionDestination === 1 ? 'block' : 'none';
+    planetEuropa.style.display = optionDestination === 2 ? 'block' : 'none';
     planetTitan.style.display = optionDestination === 3 ? 'block' : 'none'
 
 }
@@ -25,4 +25,8 @@ titanSolarMars.forEach((option, destination) =>{
     option.addEventListener('click', function(){
         showDestinationInfo(destination)
     })
+})
+
+document.addEventListener('DOMContentLoaded', function(){
+    showDestinationInfo(3)
 })
