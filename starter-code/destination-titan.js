@@ -11,25 +11,25 @@ theTitanandPlanets.classList.add('theTitanandPlanets');
 const titanList01 = document.createElement('li');
 const titanSolarMars = document.createElement('a');
 titanSolarMars.setAttribute('href', "")
-titanSolarMars.classList.add('titanSolarSystem');
+titanSolarMars.classList.add('solarSystem');
 titanSolarMars.innerHTML = 'mars'
 
 const titanList02 = document.createElement('li');
 const titanSolarMoon = document.createElement('a');
 titanSolarMoon.setAttribute('href', "")
-titanSolarMoon.classList.add('titanSolarSystem');
+titanSolarMoon.classList.add('solarSystem');
 titanSolarMoon.innerHTML = 'moon'
 
 const titanList03 = document.createElement('li');
 const titanSolartitan = document.createElement('a');
 titanSolartitan.setAttribute('href', "")
-titanSolartitan.classList.add('titanSolarSystem');
+titanSolartitan.classList.add('solarSystem');
 titanSolartitan.innerHTML = 'titan'
 
 const titanList04 = document.createElement('li');
 const titanSolarTitans = document.createElement('a');
 titanSolarTitans.setAttribute('href', "")
-titanSolarTitans.classList.add('titanSolarSystem');
+titanSolarTitans.classList.add('solarSystem');
 titanSolarTitans.innerHTML = 'titans'
 
 
