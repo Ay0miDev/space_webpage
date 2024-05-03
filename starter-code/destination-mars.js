@@ -15,25 +15,25 @@ theMoonandPlanets.classList.add('theMoonandPlanets');
 const moonList01 = document.createElement('li');
 const moonSolarMars = document.createElement('a');
 moonSolarMars.setAttribute('href', "")
-moonSolarMars.classList.add('moonSolarSystem');
+moonSolarMars.classList.add('solarSystem');
 moonSolarMars.innerHTML = 'mars'
 
 const moonList02 = document.createElement('li');
 const moonSolarMoon = document.createElement('a');
 moonSolarMoon.setAttribute('href', "")
-moonSolarMoon.classList.add('moonSolarSystem');
+moonSolarMoon.classList.add('solarSystem');
 moonSolarMoon.innerHTML = 'moon'
 
 const moonList03 = document.createElement('li');
 const moonSolarEuropa = document.createElement('a');
 moonSolarEuropa.setAttribute('href', "")
-moonSolarEuropa.classList.add('moonSolarSystem');
+moonSolarEuropa.classList.add('solarSystem');
 moonSolarEuropa.innerHTML = 'europa'
 
 const moonList04 = document.createElement('li');
 const moonSolarTitans = document.createElement('a');
 moonSolarTitans.setAttribute('href', "")
-moonSolarTitans.classList.add('moonSolarSystem');
+moonSolarTitans.classList.add('solarSystem');
 moonSolarTitans.innerHTML = 'titans'
 
 
