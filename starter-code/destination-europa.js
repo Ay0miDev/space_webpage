@@ -11,25 +11,25 @@ theEuropaandPlanets.classList.add('theEuropaandPlanets');
 const europaList01 = document.createElement('li');
 const europaSolarMars = document.createElement('a');
 europaSolarMars.setAttribute('href', "")
-europaSolarMars.classList.add('europaSolarSystem');
+europaSolarMars.classList.add('solarSystem');
 europaSolarMars.innerHTML = 'mars'
 
 const europaList02 = document.createElement('li');
 const europaSolarMoon = document.createElement('a');
 europaSolarMoon.setAttribute('href', "")
-europaSolarMoon.classList.add('europaSolarSystem');
+europaSolarMoon.classList.add('solarSystem');
 europaSolarMoon.innerHTML = 'europa'
 
 const europaList03 = document.createElement('li');
 const europaSolarEuropa = document.createElement('a');
 europaSolarEuropa.setAttribute('href', "")
-europaSolarEuropa.classList.add('europaSolarSystem');
+europaSolarEuropa.classList.add('solarSystem');
 europaSolarEuropa.innerHTML = 'europa'
 
 const europaList04 = document.createElement('li');
 const europaSolarTitans = document.createElement('a');
 europaSolarTitans.setAttribute('href', "")
-europaSolarTitans.classList.add('europaSolarSystem');
+europaSolarTitans.classList.add('solarSystem');
 europaSolarTitans.innerHTML = 'titans'
 
 
