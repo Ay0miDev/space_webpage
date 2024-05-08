@@ -21,10 +21,10 @@ titanSolarMoon.classList.add('solarSystem');
 titanSolarMoon.innerHTML = 'moon'
 
 const titanList03 = document.createElement('li');
-const titanSolartitan = document.createElement('a');
-titanSolartitan.setAttribute('href', "")
-titanSolartitan.classList.add('solarSystem');
-titanSolartitan.innerHTML = 'titan'
+const titanSolartEuropa = document.createElement('a');
+titanSolartEuropa.setAttribute('href', "")
+titanSolartEuropa.classList.add('solarSystem');
+titanSolartEuropa.innerHTML = 'europa'
 
 const titanList04 = document.createElement('li');
 const titanSolarTitans = document.createElement('a');
@@ -35,7 +35,7 @@ titanSolarTitans.innerHTML = 'titans'
 
 titanList01.appendChild(titanSolarMars);
 titanList02.appendChild(titanSolarMoon);
-titanList03.appendChild(titanSolartitan);
+titanList03.appendChild(titanSolartEuropa);
 titanList04.appendChild(titanSolarTitans);
 
 theTitanandPlanets.appendChild(titanList01);
@@ -90,18 +90,23 @@ planetTitan.appendChild(titan_timeAndDistance);
 
 marsInfo.appendChild(planetTitan)
 // The Mars Page
-marsPlanet.style.display = 'flex'
-marsPlanet.style.flexDirection = 'column'
-console.log(marsPlanet);
+// marsPlanet.style.display = 'flex'
+// marsPlanet.style.flexDirection = 'column'
+// console.log(marsPlanet);
 
-// The Moon Page
+// // The Moon Page
+// planetMoon.style.display = 'none'
+
+// // The Europa Page
+// planetEuropa.style.display = 'none'
+
+// // The titan Page
+// planetTitan.style.display = 'flex'
+// planetTitan.style.flexDirection = 'column'
+// planetTitan.style.display = 'none'
+// console.log(planetTitan);
+
+// marsPlanet.style.display = 'none'
 planetMoon.style.display = 'none'
-
-// The Europa Page
 planetEuropa.style.display = 'none'
-
-// The titan Page
-planetTitan.style.display = 'flex'
-planetTitan.style.flexDirection = 'column'
 planetTitan.style.display = 'none'
-console.log(planetTitan);

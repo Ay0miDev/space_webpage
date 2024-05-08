@@ -1,7 +1,8 @@
 
 // Locating the Container of the Description text
-const tech_Info = document.getElementById('techInfo');
 const techCartegory = document.getElementById('techCart');
+const tech_Info = document.getElementById('techInfo');
+
 // Creating a new text in javascript for Space Port
 const techInfo_spacePort = document.createElement('div');
 techInfo_spacePort.setAttribute('id', 'techInfo_spacePort');
