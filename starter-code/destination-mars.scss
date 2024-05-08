@@ -175,55 +175,62 @@
                             right: 0;
                         }
                     }
-                    .mars, .moon, .europa, .titan {
-                        font-size: 5em;
-                        font-family: none;
-                        font-weight: 100;
-                        letter-spacing: -5px;
-                    }
-                    .information, .moonInformation, .europaInformation, .titanInformation {
-                        position: relative;
-                        display: block;
-                        line-height: 25px;
-                        letter-spacing: 1px;
-                        text-transform: capitalize;
-                        font-size: 13px;
-                        width: 80%;
-                        color: rgb(220, 201, 201);
-                    }
-                    .information::after, .moonInformation::after, .europaInformation::after, .titanInformation::after {
-                        content: "";
-                        position: absolute;
-                        width: 100%;
-                        background-color: rgba(255, 255, 255, 0.43);
-                        bottom: -2em;
-                        height: 1px;
-                        left: 0;
-                        border-radius: 5px;
-                    }
-                    .timeAndDistance, .moon_timeAndDistance, .europa_timeAndDistance, .titan_timeAndDistance {
-                        display: flex;
-                        gap: 4em;
-                        width: 100%;
 
-                        .distanceDetails, .timeDetails, .moonDistanceDetail, .moonTimeDetail, .europaDistanceDetail, .europaTimeDetail, .titanDistanceDetail, .titanTimeDetail {
+                    #theMarsDetail, #theMoonDetail {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2em;
+                        
+                        .mars, .moon, .europa, .titan {
+                            font-size: 5em;
+                            font-family: none;
+                            font-weight: 100;
+                            letter-spacing: -5px;
+                        }
+                        .information, .moonInformation, .europaInformation, .titanInformation {
+                            position: relative;
+                            display: block;
+                            line-height: 25px;
+                            letter-spacing: 1px;
+                            text-transform: capitalize;
+                            font-size: 13px;
+                            width: 80%;
+                            color: rgb(220, 201, 201);
+                        }
+                        .information::after, .moonInformation::after, .europaInformation::after, .titanInformation::after {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            background-color: rgba(255, 255, 255, 0.43);
+                            bottom: -2em;
+                            height: 1px;
+                            left: 0;
+                            border-radius: 5px;
+                        }
+                        .timeAndDistance, .moon_timeAndDistance, .europa_timeAndDistance, .titan_timeAndDistance {
                             display: flex;
-                            flex-direction: column;
-                            gap: 1em;
+                            gap: 4em;
+                            width: 100%;
                             
-                            > h4 {
-                                font-weight: lighter;
-                                letter-spacing: 3px;
-                                font-size: 12px;
-                                color: rgb(220, 201, 201);
-                            }
-                            
-                            #kilometer, #month, #moonkilometer, #moonDuration, #europakilometer, #europaDuration, #titankilometer, #titanDuration {
-                                letter-spacing: -1px;
-                                font-size: 25px;
-                                font-weight: lighter;
-                                font-family: none;
-                                color: white;
+                            .distanceDetails, .timeDetails, .moonDistanceDetail, .moonTimeDetail, .europaDistanceDetail, .europaTimeDetail, .titanDistanceDetail, .titanTimeDetail {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1em;
+                                
+                                > h4 {
+                                    font-weight: lighter;
+                                    letter-spacing: 3px;
+                                    font-size: 12px;
+                                    color: rgb(220, 201, 201);
+                                }
+                                
+                                #kilometer, #month, #moonkilometer, #moonDuration, #europakilometer, #europaDuration, #titankilometer, #titanDuration {
+                                    letter-spacing: -1px;
+                                    font-size: 25px;
+                                    font-weight: lighter;
+                                    font-family: none;
+                                    color: white;
+                                }
                             }
                         }
                     }

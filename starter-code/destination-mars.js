@@ -3,49 +3,13 @@
 
 // The Planet Image
 const universeImage = document.getElementById('moonImg');
-const marsInfo = document.querySelector('.marsInfo');
 
-// Creating a new div element, nesting all elements
-const planetMoon = document.createElement('div');
-planetMoon.classList.add('planetMoon');
+// The div with class "Planet"
+const thePlanet = document.querySelector('.planet')
 
-const theMoonandPlanets = document.createElement('ul');
-theMoonandPlanets.classList.add('theMoonandPlanets');
-
-const moonList01 = document.createElement('li');
-const moonSolarMars = document.createElement('a');
-moonSolarMars.setAttribute('href', "")
-moonSolarMars.classList.add('solarSystem');
-moonSolarMars.innerHTML = 'mars'
-
-const moonList02 = document.createElement('li');
-const moonSolarMoon = document.createElement('a');
-moonSolarMoon.setAttribute('href', "")
-moonSolarMoon.classList.add('solarSystem');
-moonSolarMoon.innerHTML = 'moon'
-
-const moonList03 = document.createElement('li');
-const moonSolarEuropa = document.createElement('a');
-moonSolarEuropa.setAttribute('href', "")
-moonSolarEuropa.classList.add('solarSystem');
-moonSolarEuropa.innerHTML = 'europa'
-
-const moonList04 = document.createElement('li');
-const moonSolarTitans = document.createElement('a');
-moonSolarTitans.setAttribute('href', "")
-moonSolarTitans.classList.add('solarSystem');
-moonSolarTitans.innerHTML = 'titans'
-
-
-moonList01.appendChild(moonSolarMars);
-moonList02.appendChild(moonSolarMoon);
-moonList03.appendChild(moonSolarEuropa);
-moonList04.appendChild(moonSolarTitans);
-
-theMoonandPlanets.appendChild(moonList01);
-theMoonandPlanets.appendChild(moonList02);
-theMoonandPlanets.appendChild(moonList03);
-theMoonandPlanets.appendChild(moonList04);
+// Creating a div element to replace theMardDetails
+const theMoonDetail = document.createElement('div');
+theMoonDetail.setAttribute('id', 'theMoonDetail');
 
 
 // Creating a h1 element
@@ -87,19 +51,19 @@ moonTimeDetail.appendChild(moonDuration);
 moon_timeAndDistance.appendChild(moonDistanceDetail);
 moon_timeAndDistance.appendChild(moonTimeDetail);
 
-planetMoon.appendChild(theMoonandPlanets);
-planetMoon.appendChild(moon);
-planetMoon.appendChild(moonInformation);
-planetMoon.appendChild(moon_timeAndDistance);
 
-marsInfo.appendChild(planetMoon)
+theMoonDetail.appendChild(moon);
+theMoonDetail.appendChild(moonInformation);
+theMoonDetail.appendChild(moon_timeAndDistance);
 
-const marsPlanet = document.querySelector('.planet')
+marsInfo.appendChild(theMoonDetail)
+// theMoonDetail.style.display = 'block'
+
 // marsPlanet.style.display = 'flex'
 // marsPlanet.style.display = 'column'
 
-// planetMoon.style.display = 'flex'
-// planetMoon.style.flexDirection = 'column'
+// theMoonDetail.style.display = 'flex'
+// theMoonDetail.style.flexDirection = 'column'
 
 // marsPlanet.style.display = 'none'
 
