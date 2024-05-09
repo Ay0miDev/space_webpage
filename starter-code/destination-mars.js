@@ -62,6 +62,6 @@ theMoonDetail.style.display = 'none'
 
 // Iterating the main MarsDetail
 const theMarsDetail = document.getElementById('theMarsDetail')
-theMarsDetail.style.display = 'none'
+// theMarsDetail.style.display = 'none'
 
 

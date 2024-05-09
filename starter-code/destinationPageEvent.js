@@ -56,10 +56,27 @@ function showDestinationInfo (optionDestination) {
 }
 
 // Declaring a variable for the "solarsystem" ID attribute
-const solarSystem = document.querySelectorAll('.solarsystem')
+const solarSystemOption = document.querySelectorAll('.solarsystem')
 
-solarSystem.forEach((option, destination) => {
+solarSystemOption.forEach((option, destination) => {
     option.addEventListener('click', function(){
         showDestinationInfo (destination)
     })
+})
+// document.addEventListener('DOMContentLoaded', function(){
+
+//     showDestinationInfo(0)
+// })
+
+// Conditional statement for switching the respective images
+document.addEventListener('click', function(){
+    if(theMarsDetail.style.display === 'flex') {
+        universeImage.setAttribute('src', './assets/destination/image-mars.webp')
+    } else if(theMoonDetail.style.display === 'flex') {
+        universeImage.setAttribute('src', './assets/destination/image-moon.webp')
+    } else if(theEuropaDetail.style.display === 'flex') {
+        universeImage.setAttribute('src', './assets/destination/image-europa.webp')
+    } else {
+        universeImage.setAttribute('src', './assets/destination/image-titan.webp')
+    }
 })

@@ -55,7 +55,7 @@ thePlanet.appendChild(theEuropaDetail)
 theEuropaDetail.style.display = 'none'
 
 // iterating the main MoonDetails
-theMoonDetail.style.display = 'flex'
+theMoonDetail.style.display = 'none'
 
 
 
