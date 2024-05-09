@@ -7,7 +7,7 @@ const universeImage = document.getElementById('moonImg');
 // The div with class "Planet"
 const thePlanet = document.querySelector('.planet')
 
-// Creating a div element to replace theMardDetails
+// Creating a div element to replace theMarsDetails
 const theMoonDetail = document.createElement('div');
 theMoonDetail.setAttribute('id', 'theMoonDetail');
 
@@ -56,8 +56,14 @@ theMoonDetail.appendChild(moon);
 theMoonDetail.appendChild(moonInformation);
 theMoonDetail.appendChild(moon_timeAndDistance);
 
-marsInfo.appendChild(theMoonDetail)
-// theMoonDetail.style.display = 'block'
+thePlanet.appendChild(theMoonDetail)
+theMoonDetail.style.display = 'block'
+
+
+// Iterating the main MarsDetail
+const theMarsDetails = document.getElementById('theMarsDetail')
+theMarsDetails.style.display = 'none'
+
 
 // marsPlanet.style.display = 'flex'
 // marsPlanet.style.display = 'column'

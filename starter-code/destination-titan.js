@@ -107,6 +107,9 @@ marsInfo.appendChild(planetTitan)
 // console.log(planetTitan);
 
 // marsPlanet.style.display = 'none'
-planetMoon.style.display = 'none'
-planetEuropa.style.display = 'none'
-planetTitan.style.display = 'none'
+
+
+
+// planetMoon.style.display = 'none'
+// planetEuropa.style.display = 'none'
+// planetTitan.style.display = 'none'
