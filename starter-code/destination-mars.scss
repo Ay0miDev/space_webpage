@@ -133,7 +133,7 @@
                     height: 400px;
                     border-radius: 50%;
                 }
-                .planet, .planetMoon, .planetEuropa, .planetTitan {
+                .planet {
                     font-family: "Dosis", sans-serif;
                     width: 40%;
                     display: flex;
@@ -144,7 +144,7 @@
                     text-transform: uppercase;
                     font-weight: 100;
 
-                    .theplanet, .theMoonandPlanets, .theEuropaandPlanets, .theTitanandPlanets{
+                    .theplanet {
                         list-style: none;
                         display: flex;
                         gap: 1.5em;
@@ -155,11 +155,11 @@
                             text-decoration: none;
                             color: rgb(220, 201, 201);
                         }
-                        .solarsystem, .moonSolarSystem, .europaSolarSystem, .titanSolarSystem {
+                        .solarsystem {
                             position: relative;
                         }
 
-                        .solarsystem::after, .moonSolarSystem::after, .europaSolarSystem::after, .titanSolarSystem::after {
+                        .solarsystem::after {
                             content: "";
                             width: 0;
                             position: absolute;
@@ -170,13 +170,13 @@
                             height: 1px;
                             border-radius: 5px;
                         }
-                        .solarsystem:hover::after, .moonSolarSystem:hover::after, .europaSolarSystem:hover::after, .titanSolarSystem:hover::after {
+                        .solarsystem:hover::after {
                             width: 100%;
                             right: 0;
                         }
                     }
 
-                    #theMarsDetail, #theMoonDetail, #theEuropaDetail {
+                    #theMarsDetail, #theMoonDetail, #theEuropaDetail, #theTitanDetail {
                         display: flex;
                         flex-direction: column;
                         gap: 2em;

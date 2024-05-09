@@ -57,19 +57,11 @@ theMoonDetail.appendChild(moonInformation);
 theMoonDetail.appendChild(moon_timeAndDistance);
 
 thePlanet.appendChild(theMoonDetail)
-theMoonDetail.style.display = 'block'
+theMoonDetail.style.display = 'flex'
 
 
 // Iterating the main MarsDetail
 const theMarsDetails = document.getElementById('theMarsDetail')
 theMarsDetails.style.display = 'none'
 
-
-// marsPlanet.style.display = 'flex'
-// marsPlanet.style.display = 'column'
-
-// theMoonDetail.style.display = 'flex'
-// theMoonDetail.style.flexDirection = 'column'
-
-// marsPlanet.style.display = 'none'
 
