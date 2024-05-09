@@ -55,18 +55,38 @@ function showDestinationInfo (optionDestination) {
     theTitanDetail.style.display = optionDestination === 3 ? 'flex' : 'none';
 }
 
+function underlinedAfterClicked (selectedOption) {
+    solarSystemOption.forEach((option, destination) =>{
+        if(destination === selectedOption) {
+            option.style.backgroundColor = 'red'
+        } else {
+            option.style.backgroundColor = 'transparent'
+        }
+    })
+}
+
+
 // Declaring a variable for the "solarsystem" ID attribute
 const solarSystemOption = document.querySelectorAll('.solarsystem')
 
+// Updating the click event listener
 solarSystemOption.forEach((option, destination) => {
-    option.addEventListener('click', function(){
+    option.addEventListener('click', function(event){
+        event.preventDefault()
         showDestinationInfo (destination)
+        underlinedAfterClicked(destination)
     })
 })
-// document.addEventListener('DOMContentLoaded', function(){
 
-//     showDestinationInfo(0)
-// })
+
+
+// Creating a default page section after reloadig
+document.addEventListener('DOMContentLoaded', function(){
+    showDestinationInfo(0)
+})
+
+
+
 
 // Conditional statement for switching the respective images
 document.addEventListener('click', function(){
