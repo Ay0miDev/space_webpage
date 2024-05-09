@@ -1,183 +1,59 @@
-// // // Creating a function to show each Destination Information
+// // Creating a function to show each Destination Information
 
-// // function showDestinationInfo (optionDestination) {
-// //     marsPlanet.style.display = optionDestination === 0 ? 'block' : 'none';
-// //     planetMoon.style.display = optionDestination === 1 ? 'block' : 'none';
-// //     planetEuropa.style.display = optionDestination === 2 ? 'block' : 'none';
-// //     planetTitan.style.display = optionDestination === 3 ? 'block' : 'none'
+// function showDestinationInfo (optionDestination) {
+//     marsPlanet.style.display = optionDestination === 0 ? 'flex' : 'none';
+//     planetMoon.style.display = optionDestination === 1 ? 'flex' : 'none';
+//     planetEuropa.style.display = optionDestination === 2 ? 'flex' : 'none';
+//     planetTitan.style.display = optionDestination === 3 ? 'flex' : 'none'
 
-// // }
-
-
-
-// // if(marsPlanet.style.display === 'block') {
-// //     marsPlanet.style.display === 'block'
-// //     planetMoon.style.display === 'none'
-// //     pla
-// // }
+// }
 
 
-// // moonSolarMars.forEach((option, destination) => {
-// //     option.addEventListener('click', function(){
-// //         showDestinationInfo(destination);
-// //     })
-// // })
 
-// // europaSolarMars.forEach((option, destination) =>{
-// //     option.addEventListener('click', function(){
-// //         showDestinationInfo(destination)
-// //     })
-// // })
-
-// // titanSolarMars.forEach((option, destination) =>{
-// //     option.addEventListener('click', function(){
-// //         showDestinationInfo(destination)
-// //     })
-// // })
-
-// // document.addEventListener('DOMContentLoaded', function(){
-// //     showDestinationInfo(3)
-// // })
+// if(marsPlanet.style.display === 'flex') {
+//     marsPlanet.style.display === 'flex'
+//     planetMoon.style.display === 'none'
+//     pla
+// }
 
 
-// // document.addEventListener('DOMContentLoaded', function(){
-// //     marsPlanet.style.display = 'block'
-// // })
-
-// const marsRef = document.getElementById('marsRef')
-// const moonRef = document.getElementById('moonRef')
-// const europaRef = document.getElementById('europaRef')
-// const titanRef = document.getElementById('titanRef')
-
-// marsRef.addEventListener('click', function(){
-//     marsPlanet.style.display = 'block'
-//     // marsPlanet.style.flexDirection = 'column'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
+// moonSolarMars.forEach((option, destination) => {
+//     option.addEventListener('click', function(){
+//         showDestinationInfo(destination);
+//     })
 // })
 
-// moonRef.addEventListener('click', function(){
-//     planetMoon.style.display = 'block'
-//     // planetMoon.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
+// europaSolarMars.forEach((option, destination) =>{
+//     option.addEventListener('click', function(){
+//         showDestinationInfo(destination)
+//     })
 // })
 
-// europaRef.addEventListener('click', function(){
-//     planetEuropa.style.display = 'block'
-//     // planetEuropa.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetTitan.style.display = 'none'
+// titanSolarMars.forEach((option, destination) =>{
+//     option.addEventListener('click', function(){
+//         showDestinationInfo(destination)
+//     })
 // })
 
-// titanRef.addEventListener('click', function(){
-//     planetTitan.style.display = 'block'
-//     // planetTitan.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
+// document.addEventListener('DOMContentLoaded', function(){
+//     showDestinationInfo(3)
 // })
 
 
-// moonSolarMars.addEventListener('click', function(){
-//     marsPlanet.style.display = 'block'
-//     // marsPlanet.style.flexDirection = 'column'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// moonSolarMoon.addEventListener('click', function(){
-//     planetMoon.style.display = 'block'
-//     // planetMoon.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// moonSolarEuropa.addEventListener('click', function(){
-//     planetEuropa.style.display = 'block'
-//     // planetEuropa.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// moonSolarTitans.addEventListener('click', function(){
-//     planetTitan.style.display = 'block'
-//     // planetTitan.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
+// document.addEventListener('DOMContentLoaded', function(){
+//     marsPlanet.style.display = 'flex'
 // })
 
 
 
-// europaSolarMars.addEventListener('click', function(){
-//     marsPlanet.style.display = 'block'
-//     // marsPlanet.style.flexDirection = 'column'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
+// Function to execute the display of the container one after the other
 
-// europaSolarMoon.addEventListener('click', function(){
-//     planetMoon.style.display = 'block'
-//     // planetMoon.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
+function showDestinationInfo (optionDestination) {
+    theMarsDetail.style.display = optionDestination === 0 ? 'flex' : 'none';
+    theMoonDetail.style.display = optionDestination === 1 ? 'flex' : 'none';
+    theEuropaDetail.style.display = optionDestination === 2 ? 'flex' : 'none';
+    theTitanDetail.style.display = optionDestination === 3 ? 'flex' : 'none';
+}
 
-// europaSolarEuropa.addEventListener('click', function(){
-//     planetEuropa.style.display = 'block'
-//     // planetEuropa.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// europaSolarTitans.addEventListener('click', function(){
-//     planetTitan.style.display = 'block'
-//     // planetTitan.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-// })
-
-
-
-// titanSolarMars.addEventListener('click', function(){
-//     marsPlanet.style.display = 'block'
-//     // marsPlanet.style.flexDirection = 'column'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// titanSolarMoon.addEventListener('click', function(){
-//     planetMoon.style.display = 'block'
-//     // planetMoon.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// titanSolartEuropa.addEventListener('click', function(){
-//     planetEuropa.style.display = 'block'
-//     // planetEuropa.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetTitan.style.display = 'none'
-// })
-
-// titanSolarTitans.addEventListener('click', function(){
-//     planetTitan.style.display = 'block'
-//     // planetTitan.style.flexDirection = 'column'
-//     marsPlanet.style.display = 'none'
-//     planetMoon.style.display = 'none'
-//     planetEuropa.style.display = 'none'
-// })
+// Declaring a variable for the "solarsystem" ID attribute
+const solarSystem = document.getElementById('solarsystem')

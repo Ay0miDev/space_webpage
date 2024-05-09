@@ -7,7 +7,7 @@ const universeImage = document.getElementById('moonImg');
 // The div with class "Planet"
 const thePlanet = document.querySelector('.planet')
 
-// Creating a div element to replace theMarsDetails
+// Creating a div element to replace theMarsDetail
 const theMoonDetail = document.createElement('div');
 theMoonDetail.setAttribute('id', 'theMoonDetail');
 
@@ -61,7 +61,7 @@ theMoonDetail.style.display = 'none'
 
 
 // Iterating the main MarsDetail
-const theMarsDetails = document.getElementById('theMarsDetail')
-theMarsDetails.style.display = 'none'
+const theMarsDetail = document.getElementById('theMarsDetail')
+theMarsDetail.style.display = 'none'
 
 
