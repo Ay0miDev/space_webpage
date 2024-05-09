@@ -59,8 +59,8 @@ function showDestinationInfo (optionDestination) {
 function underlinedAfterClicked (selectedOption) {
     solarSystemOption.forEach((option, destination) =>{
         if(destination === selectedOption) {
-            option.style.backgroundColor = 'grey'
-            option.style.padding = '8px'
+            option.style.backgroundColor = 'rgba(255, 255, 255, 0.43)'
+            option.style.padding = '5px 10px'
             option.style.borderRadius = '15px'
         } else {
             option.style.backgroundColor = 'transparent'
@@ -88,11 +88,20 @@ document.addEventListener('DOMContentLoaded', function(){
     showDestinationInfo(0)
 })
 
-
-// Conditional statement for switching the respective images
+const solarSystemLine01 = document.getElementsByClassName('solarSystemLine')[0]
+const solarSystemLine02 = document.getElementsByClassName('solarSystemLine')[1]
+const solarSystemLine03 = document.getElementsByClassName('solarSystemLine')[2]
+const solarSystemLine04 = document.getElementsByClassName('solarSystemLine')[3]
 document.addEventListener('click', function(){
+
+
+    // Conditional statement for switching the respective images
     if(theMarsDetail.style.display === 'flex') {
         universeImage.setAttribute('src', './assets/destination/image-mars.webp')
+        solarSystemLine01.style.display = 'block'
+        solarSystemLine02.style.display = 'none'
+        solarSystemLine03.style.display = 'none'
+        solarSystemLine04.style.display = 'none'
     } else if(theMoonDetail.style.display === 'flex') {
         universeImage.setAttribute('src', './assets/destination/image-moon.webp')
     } else if(theEuropaDetail.style.display === 'flex') {

@@ -151,7 +151,7 @@
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet .solarsystem {
   position: relative;
 }
-.mainBg01 .fig .marsDetails .marsInfo .planet .theplanet #solarsystemLine {
+.mainBg01 .fig .marsDetails .marsInfo .planet .theplanet .solarsystemLine {
   position: absolute;
   bottom: -1em;
   width: 100%;
