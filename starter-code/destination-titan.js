@@ -50,7 +50,7 @@ theTitanDetail.appendChild(titanInformation);
 theTitanDetail.appendChild(titan_timeAndDistance);
 
 thePlanet.appendChild(theTitanDetail)
-theTitanDetail.style.display = 'flex'
+theTitanDetail.style.display = 'none'
 
 
 // Iterating the main EuropaDetail

@@ -52,10 +52,10 @@ theEuropaDetail.appendChild(europaInformation);
 theEuropaDetail.appendChild(europa_timeAndDistance);
 
 thePlanet.appendChild(theEuropaDetail)
-theEuropaDetail.style.display = 'flex'
+theEuropaDetail.style.display = 'none'
 
 // iterating the main MoonDetails
-theMoonDetail.style.display = 'none'
+theMoonDetail.style.display = 'flex'
 
 
 

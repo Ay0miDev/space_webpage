@@ -57,7 +57,7 @@ theMoonDetail.appendChild(moonInformation);
 theMoonDetail.appendChild(moon_timeAndDistance);
 
 thePlanet.appendChild(theMoonDetail)
-theMoonDetail.style.display = 'flex'
+theMoonDetail.style.display = 'none'
 
 
 // Iterating the main MarsDetail

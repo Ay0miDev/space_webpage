@@ -224,12 +224,20 @@
                                     color: rgb(220, 201, 201);
                                 }
                                 
-                                #kilometer, #month, #moonkilometer, #moonDuration, #europakilometer, #europaDuration, #titankilometer, #titanDuration {
+                                #kilometer, #month, #moonkilometer, #moonDuration, #europakilometer, #europaDuration {
                                     letter-spacing: -1px;
                                     font-size: 25px;
                                     font-weight: lighter;
                                     font-family: none;
                                     color: white;
+                                }
+                                #titankilometer, #titanDuration {
+                                    letter-spacing: -1px;
+                                    font-size: 25px;
+                                    font-weight: lighter;
+                                    font-family: none;
+                                    color: white;
+
                                 }
                             }
                         }
