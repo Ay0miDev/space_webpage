@@ -150,6 +150,10 @@
                         gap: 1.5em;
                         font-size: 12px;
                         letter-spacing: 3px;
+
+                        > li {
+                            position: relative;
+                        }
     
                         >li > a {
                             text-decoration: none;
@@ -157,6 +161,13 @@
                         }
                         .solarsystem {
                             position: relative;
+                        }
+                        
+                        #solarsystemLine {
+                            position: absolute;
+                            bottom: -1em;
+                            width: 100%;
+                            display: none;
                         }
 
                         .solarsystem::after {

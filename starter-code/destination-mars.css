@@ -141,12 +141,21 @@
   font-size: 12px;
   letter-spacing: 3px;
 }
+.mainBg01 .fig .marsDetails .marsInfo .planet .theplanet > li {
+  position: relative;
+}
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet > li > a {
   text-decoration: none;
   color: rgb(220, 201, 201);
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet .solarsystem {
   position: relative;
+}
+.mainBg01 .fig .marsDetails .marsInfo .planet .theplanet #solarsystemLine {
+  position: absolute;
+  bottom: -1em;
+  width: 100%;
+  display: none;
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet .solarsystem::after {
   content: "";

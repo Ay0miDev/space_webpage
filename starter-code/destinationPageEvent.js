@@ -55,10 +55,13 @@ function showDestinationInfo (optionDestination) {
     theTitanDetail.style.display = optionDestination === 3 ? 'flex' : 'none';
 }
 
+// Undating the click elemnent with a visible style
 function underlinedAfterClicked (selectedOption) {
     solarSystemOption.forEach((option, destination) =>{
         if(destination === selectedOption) {
-            option.style.backgroundColor = 'red'
+            option.style.backgroundColor = 'grey'
+            option.style.padding = '8px'
+            option.style.borderRadius = '15px'
         } else {
             option.style.backgroundColor = 'transparent'
         }
@@ -84,8 +87,6 @@ solarSystemOption.forEach((option, destination) => {
 document.addEventListener('DOMContentLoaded', function(){
     showDestinationInfo(0)
 })
-
-
 
 
 // Conditional statement for switching the respective images
