@@ -155,11 +155,11 @@
                             text-decoration: none;
                             color: rgb(220, 201, 201);
                         }
-                        #solarsystem {
+                        .solarsystem {
                             position: relative;
                         }
 
-                        #solarsystem::after {
+                        .solarsystem::after {
                             content: "";
                             width: 0;
                             position: absolute;
@@ -170,7 +170,7 @@
                             height: 1px;
                             border-radius: 5px;
                         }
-                        #solarsystem:hover::after {
+                        .solarsystem:hover::after {
                             width: 100%;
                             right: 0;
                         }

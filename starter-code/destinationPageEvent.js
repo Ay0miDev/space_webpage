@@ -56,4 +56,10 @@ function showDestinationInfo (optionDestination) {
 }
 
 // Declaring a variable for the "solarsystem" ID attribute
-const solarSystem = document.getElementById('solarsystem')
+const solarSystem = document.querySelectorAll('.solarsystem')
+
+solarSystem.forEach((option, destination) => {
+    option.addEventListener('click', function(){
+        showDestinationInfo (destination)
+    })
+})
