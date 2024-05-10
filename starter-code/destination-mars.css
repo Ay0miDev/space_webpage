@@ -150,6 +150,8 @@
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet .solarsystem {
   position: relative;
+  border-radius: 15px;
+  padding: 5px 10px;
 }
 .mainBg01 .fig .marsDetails .marsInfo .planet .theplanet .solarsystemLine {
   position: absolute;
@@ -164,7 +166,7 @@
   transition: width 500ms ease 0s, right 500ms ease 0s;
   background-color: white;
   right: 50%;
-  bottom: -1em;
+  bottom: -0.5em;
   height: 1px;
   border-radius: 5px;
 }

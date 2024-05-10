@@ -1,51 +1,3 @@
-// // Creating a function to show each Destination Information
-
-// function showDestinationInfo (optionDestination) {
-//     marsPlanet.style.display = optionDestination === 0 ? 'flex' : 'none';
-//     planetMoon.style.display = optionDestination === 1 ? 'flex' : 'none';
-//     planetEuropa.style.display = optionDestination === 2 ? 'flex' : 'none';
-//     planetTitan.style.display = optionDestination === 3 ? 'flex' : 'none'
-
-// }
-
-
-
-// if(marsPlanet.style.display === 'flex') {
-//     marsPlanet.style.display === 'flex'
-//     planetMoon.style.display === 'none'
-//     pla
-// }
-
-
-// moonSolarMars.forEach((option, destination) => {
-//     option.addEventListener('click', function(){
-//         showDestinationInfo(destination);
-//     })
-// })
-
-// europaSolarMars.forEach((option, destination) =>{
-//     option.addEventListener('click', function(){
-//         showDestinationInfo(destination)
-//     })
-// })
-
-// titanSolarMars.forEach((option, destination) =>{
-//     option.addEventListener('click', function(){
-//         showDestinationInfo(destination)
-//     })
-// })
-
-// document.addEventListener('DOMContentLoaded', function(){
-//     showDestinationInfo(3)
-// })
-
-
-// document.addEventListener('DOMContentLoaded', function(){
-//     marsPlanet.style.display = 'flex'
-// })
-
-
-
 // Function to execute the display of the container one after the other
 
 function showDestinationInfo (optionDestination) {
@@ -83,9 +35,10 @@ solarSystemOption.forEach((option, destination) => {
 
 
 
-// Creating a default page section after reloadig
+// Creating a default page section after reloading
 document.addEventListener('DOMContentLoaded', function(){
     showDestinationInfo(0)
+    
 })
 
 const solarSystemLine01 = document.getElementsByClassName('solarSystemLine')[0]
