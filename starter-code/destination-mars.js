@@ -62,6 +62,7 @@ theMoonDetail.style.display = 'none'
 
 // Iterating the main MarsDetail
 const theMarsDetail = document.getElementById('theMarsDetail')
-// theMarsDetail.style.display = 'none'
 
-
+// The Mars page link
+const marsRef = document.getElementById('marsRef')
+marsRef.style.backgroundColor = 'rgba(255, 255, 255, 0.43)'

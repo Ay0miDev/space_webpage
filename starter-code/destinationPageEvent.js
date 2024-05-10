@@ -38,13 +38,15 @@ solarSystemOption.forEach((option, destination) => {
 // Creating a default page section after reloading
 document.addEventListener('DOMContentLoaded', function(){
     showDestinationInfo(0)
-    
 })
 
 const solarSystemLine01 = document.getElementsByClassName('solarSystemLine')[0]
 const solarSystemLine02 = document.getElementsByClassName('solarSystemLine')[1]
 const solarSystemLine03 = document.getElementsByClassName('solarSystemLine')[2]
 const solarSystemLine04 = document.getElementsByClassName('solarSystemLine')[3]
+
+
+
 document.addEventListener('click', function(){
 
 
