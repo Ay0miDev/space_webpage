@@ -129,17 +129,17 @@
   text-transform: uppercase;
   font-weight: 100;
 }
-.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #occupation {
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #occupation, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #hurleyOccupation, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #shuttleworthOccupation, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #gloverOccupation {
   font-size: 30px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.43);
 }
-.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #name {
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #name, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #hurleyName, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #shuttleworthName, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #gloverName {
   font-size: 50px;
   font-weight: 300;
   width: 100%;
 }
-.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #bio_info {
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #bio_info, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #hurleyBioInfo, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #shuttleworthBioInfo, .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #gloverBioInfo {
   font-family: "Dosis", sans-serif;
   text-transform: capitalize;
   width: 85%;

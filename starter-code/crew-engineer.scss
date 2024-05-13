@@ -138,17 +138,17 @@
                     text-transform: uppercase;
                     font-weight: 100;
 
-                    #occupation {
+                    #occupation, #hurleyOccupation, #shuttleworthOccupation, #gloverOccupation {
                         font-size: 30px;
                         font-weight: 300;
                         color: rgba(255, 255, 255, 0.43);
                     }
-                    #name {
+                    #name, #hurleyName, #shuttleworthName, #gloverName {
                         font-size: 50px;
                         font-weight: 300;
                         width: 100%;
                     }
-                    #bio_info {
+                    #bio_info, #hurleyBioInfo, #shuttleworthBioInfo, #gloverBioInfo {
                         font-family: "Dosis", sans-serif;
                         text-transform: capitalize;
                         width: 85%;

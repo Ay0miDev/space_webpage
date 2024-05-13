@@ -1,25 +1,94 @@
-// The Crew Detail
-const crewDetail = document.querySelector('.crewDetails');
+// The Image and Info Div
+const ImgAndInfo = document.querySelector('.ansari_Img_Info');
 
-// Creating a div element
-const hurleyImgAndInfo = document.createElement('div');
-hurleyImgAndInfo.classList.add('hurleyImgAndInfo');
-const hurleyInfo = document.createElement('div');
-hurleyInfo.classList.add('hurleyInfo');
+// The Info Div
+const infoContainer = document.querySelector('.ansariImgInfo');
+
+
+
+// DOUGLAS HURLEY PAGE
+// Creating a Div element
+const hurleyText = document.createElement('div');
+hurleyText.setAttribute('id', 'hurleyText');
 
 const hurleyOccupation = document.createElement('h2');
 hurleyOccupation.setAttribute('id', 'hurleyOccupation');
-hurleyOccupation.innerHTML = `Flight Engineer`
+hurleyOccupation.innerHTML = `Commander`
 
 const hurleyName = document.createElement('h1');
 hurleyName.setAttribute('id', 'hurleyName');
-hurleyName.innerHTML = `Anousheh Ansari`
+hurleyName.innerHTML = `Douglas Hurley`
 
 const hurleyBioInfo = document.createElement('p');
 hurleyBioInfo.setAttribute('id', 'hurleyBioInfo');
-hurleyBioInfo.innerHTML = `Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
-Ansari was the fourth self-funded space tourist, the first self-funded woman to 
-fly to the ISS, and the first Iranian in space.`
+hurleyBioInfo.innerHTML = `Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+and former NASA astronaut. He launched into space for the third time as 
+commander of Crew Dragon Demo-2.`
 
-const hurleyCrewToggleContainer = document.createElement('div');
-hurleyCrewToggleContainer.classList.add('hurleyCrewToggleContainer');
+hurleyText.appendChild(hurleyOccupation);
+hurleyText.appendChild(hurleyName);
+hurleyText.appendChild(hurleyBioInfo);
+
+infoContainer.appendChild(hurleyText);
+hurleyText.style.display = 'none'
+
+
+
+
+// MARK SHUTTLEWORTH PAGE
+
+// Creating a Div element
+const shuttleworthText = document.createElement('div');
+shuttleworthText.setAttribute('id', 'shuttleworthText');
+
+const shuttleworthOccupation = document.createElement('h2');
+shuttleworthOccupation.setAttribute('id', 'shuttleworthOccupation');
+shuttleworthOccupation.innerHTML = `  Mission Specialist`
+
+const shuttleworthName = document.createElement('h1');
+shuttleworthName.setAttribute('id', 'shuttleworthName');
+shuttleworthName.innerHTML = `Mark Shuttleworth`
+
+const shuttleworthBioInfo = document.createElement('p');
+shuttleworthBioInfo.setAttribute('id', 'shuttleworthBioInfo');
+shuttleworthBioInfo.innerHTML = `Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+African to travel to space as a space tourist.`
+
+shuttleworthText.appendChild(shuttleworthOccupation);
+shuttleworthText.appendChild(shuttleworthName);
+shuttleworthText.appendChild(shuttleworthBioInfo);
+
+infoContainer.appendChild(shuttleworthText);
+shuttleworthText.style.display = 'none'
+
+
+
+
+// VICTOR GLOVER PAGE
+
+// Creating a Div element
+const gloverText = document.createElement('div');
+gloverText.setAttribute('id', 'gloverText');
+
+const gloverOccupation = document.createElement('h2');
+gloverOccupation.setAttribute('id', 'gloverOccupation');
+gloverOccupation.innerHTML = `Pilot`
+
+const gloverName = document.createElement('h1');
+gloverName.setAttribute('id', 'gloverName');
+gloverName.innerHTML = `Victor Glover`
+
+const gloverBioInfo = document.createElement('p');
+gloverBioInfo.setAttribute('id', 'gloverBioInfo');
+gloverBioInfo.innerHTML = `Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+International Space Station. Glover is a commander in the U.S. Navy where 
+he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+station systems flight engineer.`
+
+gloverText.appendChild(gloverOccupation);
+gloverText.appendChild(gloverName);
+gloverText.appendChild(gloverBioInfo);
+
+infoContainer.appendChild(gloverText);
+gloverText.style.display = 'none'
