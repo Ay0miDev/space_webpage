@@ -97,8 +97,22 @@ gloverText.style.display = 'none'
 // The clicking to navigate through the page
 const toggleBio = document.querySelectorAll('.crewToggle')
 
+
+// The first toggle container
+const ansariText = document.querySelector('#ansariText')
+
 // Function to execute a click event through diff pages
 function bioCrewInfo (optionCrew) {
-    hurleyText.style.display = optionCrew === 0 ? 'block' : 'none';
-    
+    ansariText.style.display = optionCrew === 0 ? 'block' : 'none';
+    hurleyText.style.display = optionCrew === 1 ? 'block' : 'none';
+    shuttleworthText.style.display = optionCrew === 2 ? 'block' : 'none'
+    gloverText.style.display = optionCrew === 3 ? 'block' : 'none'
 }
+
+// Iterating the function for the click event to be effective
+toggleBio.forEach((option, crew)=>{
+    option.addEventListener('click', function(event){
+        bioCrewInfo(crew)
+        event.preventDefault()
+    })
+})
