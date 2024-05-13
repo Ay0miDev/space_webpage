@@ -109,10 +109,21 @@ function bioCrewInfo (optionCrew) {
     gloverText.style.display = optionCrew === 3 ? 'block' : 'none'
 }
 
+function crewTogggleBackground (changeBgOption) {
+    toggleBio.forEach((option, crew) => {
+        if(crew === changeBgOption) {
+            option.style.backgroundColor = 'white'
+        }else {
+            option.style.backgroundColor = 'grey'
+        }
+    })
+}
 // Iterating the function for the click event to be effective
 toggleBio.forEach((option, crew)=>{
     option.addEventListener('click', function(event){
         bioCrewInfo(crew)
+        crewTogggleBackground(crew)
         event.preventDefault()
     })
 })
+
