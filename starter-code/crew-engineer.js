@@ -92,3 +92,13 @@ gloverText.appendChild(gloverBioInfo);
 
 infoContainer.appendChild(gloverText);
 gloverText.style.display = 'none'
+
+
+// The clicking to navigate through the page
+const toggleBio = document.querySelectorAll('.crewToggle')
+
+// Function to execute a click event through diff pages
+function bioCrewInfo (optionCrew) {
+    hurleyText.style.display = optionCrew === 0 ? 'block' : 'none';
+    
+}
