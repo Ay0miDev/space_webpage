@@ -94,6 +94,8 @@ infoContainer.appendChild(gloverText);
 gloverText.style.display = 'none'
 
 
+
+
 // The clicking to navigate through the page
 const toggleBio = document.querySelectorAll('.crewToggle')
 
@@ -118,6 +120,7 @@ function crewTogggleBackground (changeBgOption) {
         }
     })
 }
+
 // Iterating the function for the click event to be effective
 toggleBio.forEach((option, crew)=>{
     option.addEventListener('click', function(event){
@@ -128,5 +131,27 @@ toggleBio.forEach((option, crew)=>{
 })
 
 
-infoContainer.style.display = 'flex'
-infoContainer.style.flexDirection = "column-reverse"
+
+// The Crew role Images
+const crewImageRoles = document.getElementById('ansariImg')
+document.addEventListener('click', function(){
+
+    if (ansariText.display === "block") {
+        crewImageRoles.setAttribute('src', './assets/crew/image-anousheh-ansari.png')
+    } else if (hurleyText.style.display === 'block') {
+        crewImageRoles.setAttribute('src', './assets/crew/image-douglas-hurley.png')
+    } else if (shuttleworthText.style.display === 'block') {
+        crewImageRoles.setAttribute('src', './assets/crew/image-mark-shuttleworth.png')
+    } else {
+        crewImageRoles.setAttribute('src', './assets/crew/image-victor-glover.png')
+    }
+
+        // A Statement to reverse the div except the first container
+    if (ansariText.display === "block") {
+        infoContainer.style.display = 'flex'
+        infoContainer.style.flexDirection = "column"
+    }else {
+        infoContainer.style.display = 'flex'
+        infoContainer.style.flexDirection = "column-reverse"
+    }
+})
