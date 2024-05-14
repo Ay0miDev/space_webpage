@@ -136,7 +136,7 @@ toggleBio.forEach((option, crew)=>{
 const crewImageRoles = document.getElementById('ansariImg')
 document.addEventListener('click', function(){
 
-    if (ansariText.display === "block") {
+    if (ansariText.style.display === "block") {
         crewImageRoles.setAttribute('src', './assets/crew/image-anousheh-ansari.png')
     } else if (hurleyText.style.display === 'block') {
         crewImageRoles.setAttribute('src', './assets/crew/image-douglas-hurley.png')
@@ -145,13 +145,14 @@ document.addEventListener('click', function(){
     } else {
         crewImageRoles.setAttribute('src', './assets/crew/image-victor-glover.png')
     }
-
-        // A Statement to reverse the div except the first container
-    if (ansariText.display === "block") {
-        infoContainer.style.display = 'flex'
-        infoContainer.style.flexDirection = "column"
-    }else {
-        infoContainer.style.display = 'flex'
-        infoContainer.style.flexDirection = "column-reverse"
-    }
 })
+
+
+// A Statement to reverse the div except the first container
+// if (ansariText.display === "block") {
+//     infoContainer.style.display = 'flex'
+//     infoContainer.style.flexDirection = "column"
+// }else {
+//     infoContainer.style.display = 'flex'
+//     infoContainer.style.flexDirection = "column-reverse"
+// }

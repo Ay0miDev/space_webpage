@@ -6,17 +6,19 @@
 
 .mainBgEng {
   max-width: 1440px;
-  max-height: 100vh;
+  max-height: 100%;
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 .mainBgEng .figEng {
   background-image: url(./assets/crew/background-crew-desktop.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding: 4em 0 4em 4em;
+  overflow: hidden;
 }
 .mainBgEng .figEng .navContainerEng {
   display: flex;
@@ -98,6 +100,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
 }
 .mainBgEng .figEng .crewDetails #yourCrew #meetCrew {
   display: flex;
@@ -117,7 +120,10 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 3em 0em 0;
+  padding: 1.6em 0em 0;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo {
   display: flex;
@@ -163,9 +169,6 @@
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle:nth-child(1) {
   background-color: white;
-}
-.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgContainer {
-  width: 49%;
 }
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgContainer #ansariImg {
   width: 100%;
