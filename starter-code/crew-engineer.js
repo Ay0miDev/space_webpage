@@ -127,3 +127,6 @@ toggleBio.forEach((option, crew)=>{
     })
 })
 
+
+infoContainer.style.display = 'flex'
+infoContainer.style.flexDirection = "column-reverse"
