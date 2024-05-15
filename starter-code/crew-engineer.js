@@ -149,10 +149,10 @@ document.addEventListener('click', function(){
 
 
 // A Statement to reverse the div except the first container
-// if (ansariText.display === "block") {
-//     infoContainer.style.display = 'flex'
-//     infoContainer.style.flexDirection = "column"
-// }else {
-//     infoContainer.style.display = 'flex'
-//     infoContainer.style.flexDirection = "column-reverse"
-// }
+if (ansariText.display === "block") {
+    infoContainer.style.display = 'flex'
+    infoContainer.style.flexDirection = "column"
+}else {
+    infoContainer.style.display = 'flex'
+    infoContainer.style.flexDirection = "column-reverse"
+}
