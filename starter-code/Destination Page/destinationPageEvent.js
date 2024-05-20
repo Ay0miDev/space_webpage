@@ -52,16 +52,16 @@ document.addEventListener('click', function(){
 
     // Conditional statement for switching the respective images
     if(theMarsDetail.style.display === 'flex') {
-        universeImage.setAttribute('src', './assets/destination/image-mars.webp')
+        universeImage.setAttribute('src', '../assets/destination/image-mars.webp')
         solarSystemLine01.style.display = 'block'
         solarSystemLine02.style.display = 'none'
         solarSystemLine03.style.display = 'none'
         solarSystemLine04.style.display = 'none'
     } else if(theMoonDetail.style.display === 'flex') {
-        universeImage.setAttribute('src', './assets/destination/image-moon.webp')
+        universeImage.setAttribute('src', '../assets/destination/image-moon.webp')
     } else if(theEuropaDetail.style.display === 'flex') {
-        universeImage.setAttribute('src', './assets/destination/image-europa.webp')
+        universeImage.setAttribute('src', '../assets/destination/image-europa.webp')
     } else {
-        universeImage.setAttribute('src', './assets/destination/image-titan.webp')
+        universeImage.setAttribute('src', '../assets/destination/image-titan.webp')
     }
 })

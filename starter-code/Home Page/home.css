@@ -11,7 +11,7 @@
   height: 100vh;
 }
 .mainBg figure {
-  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-image: url(../assets/home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
