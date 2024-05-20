@@ -137,13 +137,13 @@ const crewImageRoles = document.getElementById('ansariImg')
 document.addEventListener('click', function(){
 
     if (ansariText.style.display === "block") {
-        crewImageRoles.setAttribute('src', './assets/crew/image-anousheh-ansari.png')
+        crewImageRoles.setAttribute('src', '../assets/crew/image-anousheh-ansari.png')
     } else if (hurleyText.style.display === 'block') {
-        crewImageRoles.setAttribute('src', './assets/crew/image-douglas-hurley.png')
+        crewImageRoles.setAttribute('src', '../assets/crew/image-douglas-hurley.png')
     } else if (shuttleworthText.style.display === 'block') {
-        crewImageRoles.setAttribute('src', './assets/crew/image-mark-shuttleworth.png')
+        crewImageRoles.setAttribute('src', '../assets/crew/image-mark-shuttleworth.png')
     } else {
-        crewImageRoles.setAttribute('src', './assets/crew/image-victor-glover.png')
+        crewImageRoles.setAttribute('src', '../assets/crew/image-victor-glover.png')
     }
 })
 
