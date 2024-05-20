@@ -110,11 +110,11 @@ const eventImg = document.getElementById('launchVehicleImg');
 // Conditional statement for sswitching the images
 document.addEventListener('click', function() {
     if(tech_Info.style.display === 'block'){
-        eventImg.setAttribute('src', './assets/technology/image-launch-vehicle-portrait.jpg');
+        eventImg.setAttribute('src', '../assets/technology/image-launch-vehicle-portrait.jpg');
     } else if(techInfo_spacePort.style.display === 'block'){
-        eventImg.setAttribute('src', './assets/technology/image-space-capsule-portrait.jpg');
+        eventImg.setAttribute('src', '../assets/technology/image-space-capsule-portrait.jpg');
     } else {
-        eventImg.setAttribute('src', './assets/technology/image-spaceport-portrait.jpg');
+        eventImg.setAttribute('src', '../assets/technology/image-spaceport-portrait.jpg');
     }
 });
 
