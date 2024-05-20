@@ -13,7 +13,7 @@
   overflow: hidden;
 }
 .mainBgEng .figEng {
-  background-image: url(./assets/crew/background-crew-desktop.jpg);
+  background-image: url(../assets/crew/background-crew-desktop.jpg);
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
