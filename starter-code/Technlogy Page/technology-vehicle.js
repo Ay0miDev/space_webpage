@@ -61,6 +61,7 @@ techInfo_Capsule.appendChild(capsule);
 techInfo_Capsule.appendChild(capsule_Info);
 
 // The container created appended to the main div element
+
 techCartegory.appendChild(techInfo_Capsule);
 techInfo_Capsule.style.display = 'none'
 
