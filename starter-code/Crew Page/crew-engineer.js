@@ -1,7 +1,7 @@
 // The Image and Info Div
 const ImgAndInfo = document.querySelector('.ansari_Img_Info');
 
-// The Info Div
+// The Info Div Omly
 const infoContainer = document.querySelector('.ansariImgInfo');
 
 
@@ -86,8 +86,8 @@ International Space Station. Glover is a commander in the U.S. Navy where
 he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
 station systems flight engineer.`
 
-gloverText.appendChild(gloverName);
 gloverText.appendChild(gloverOccupation);
+gloverText.appendChild(gloverName);
 gloverText.appendChild(gloverBioInfo);
 
 infoContainer.appendChild(gloverText);
@@ -111,18 +111,20 @@ function bioCrewInfo (optionCrew) {
     gloverText.style.display = optionCrew === 3 ? 'block' : 'none'
 }
 
+// Function to change the background color of respective clicked toggled
 function crewTogggleBackground (changeBgOption) {
     toggleBio.forEach((option, crew) => {
-        if(crew === changeBgOption) {
+        if(crew === changeBgOption){
             option.style.backgroundColor = 'white'
-        }else {
+        }
+        else {
             option.style.backgroundColor = 'grey'
         }
     })
 }
 
 // Iterating the function for the click event to be effective
-toggleBio.forEach((option, crew)=>{
+toggleBio.forEach((option, crew) => {
     option.addEventListener('click', function(event){
         bioCrewInfo(crew)
         crewTogggleBackground(crew)
@@ -149,7 +151,7 @@ document.addEventListener('click', function(){
 })
 
 
-// A Statement to reverse the div except the first container
+// A Statement to reverse the div except the first container  
 if (ansariText.display === "block") {
     infoContainer.style.display = 'flex'
     infoContainer.style.flexDirection = "column"
@@ -157,3 +159,5 @@ if (ansariText.display === "block") {
     infoContainer.style.display = 'flex'
     infoContainer.style.flexDirection = "column-reverse"
 }
+
+// Retconning

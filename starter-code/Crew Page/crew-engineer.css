@@ -9,7 +9,7 @@
   max-height: 100%;
   width: 100%;
   margin: 0 auto;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 .mainBgEng .figEng {
@@ -72,7 +72,7 @@
   display: flex;
   list-style: none;
   background: linear-gradient(to right, rgba(19, 9, 39, 0.253), rgba(0, 0, 0, 0.482), rgba(6, 6, 6, 0.818));
-  background: opacity(0.5);
+  opacity: 0.5;
   justify-content: space-evenly;
   width: 60%;
   padding: 1.5em 10em;
@@ -120,7 +120,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 1.6em 0em 0;
+  padding: 1.6em 0 0;
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -170,6 +170,17 @@
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle:nth-child(1) {
   background-color: white;
 }
+.mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgContainer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgContainer #ansariImg {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=crew-engineer.css.map */
