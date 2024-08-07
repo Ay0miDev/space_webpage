@@ -5,7 +5,7 @@
 }
 .mainBg {
     max-width: 1440px;
-    max-height: 90vh;
+    max-height: 100vh;
     width: 100%;
     margin: 0 auto;
     height: 100%;
@@ -22,9 +22,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .imgContainer {
-                width: 50%;
-            }
             .imgContainer {
                 position: relative;
                 width: 40%;
@@ -169,7 +166,8 @@
                 }
             }
             .moreDetails {
-                margin: 10em 4em;
+                margin: 15em 4em 0;
+
                 .moreDetails01 {
                     width: 50%;
                     #space {
@@ -178,8 +176,8 @@
                 }
                 .moreDetails02 {
                     #explore {
-                        height: 180px;
-                        width: 180px;
+                        height: 200px;
+                        width: 200px;
                         font-size: 2em;
                     }
                 }
@@ -196,7 +194,44 @@
             background-repeat: no-repeat;
             object-fit: contain;
             width: 100%;
+            padding: 0;
+
+            .navContainer {
+                padding: 4em 0 4em 4em;
+                .imgContainer {
+                    width: 5%;
+                }
+                .infoContent {
+                    width: 85%;
+                    padding: 1.5em .5em;
+                    justify-content: center;
+                    gap: .7em;
+                }
+            }
+            .moreDetails {
+                margin: 5em 8em 0;
+                flex-direction: column;
+                align-items: center;
+                gap: 8em;
+
+                .moreDetails01 {
+                    width: 100%;
+                    align-items: center;
+
+                    #spaceText {
+                        text-align: center;
+                    }
+
+                }
+                .moreDetails02 {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
         }
    }
 
+}
+@media (max-width: 635px) {
+    
 }
