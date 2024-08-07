@@ -6,9 +6,11 @@
 
 .mainBg01 {
   max-width: 1440px;
+  max-height: 90vh;
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 .mainBg01 .fig {
   background-image: url(../assets/destination/background-destination-desktop.jpg);

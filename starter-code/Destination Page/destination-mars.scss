@@ -5,9 +5,11 @@
 }
 .mainBg01 {
     max-width: 1440px;
+    max-height: 90vh;
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
+    overflow: hidden;
 
     .fig {
         background-image: url(../assets/destination/background-destination-desktop.jpg);
@@ -84,7 +86,6 @@
                     #singleInfo01 {
                         text-decoration: none;
                         text-transform: uppercase;
-                        // color: rgba(255, 255, 255, 0.886);
                         color: rgb(220, 201, 201);
                         font-family: "Dosis", sans-serif;
                         font-weight: 500;
