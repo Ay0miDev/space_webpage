@@ -230,8 +230,24 @@
             }
         }
    }
-
 }
 @media (max-width: 635px) {
-    
+    .mainBg {
+        figure {
+            .navContainer {
+                display: none;
+            }
+            #navContainer02 {
+                display: flex;
+                width: 80%;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                padding: 3em 0;
+            }
+            .moreDetails {
+                margin: 0 3em;
+            }
+        }
+    }
 }
