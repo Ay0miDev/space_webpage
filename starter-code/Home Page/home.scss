@@ -93,6 +93,9 @@
             }
             
         }
+        #navContainer02 {
+            display: none;
+        }
         .moreDetails {
             margin: 14em 8em;
             display: flex;
@@ -182,6 +185,9 @@
                     }
                 }
             }
+            #navContainer02 {
+                display: none;
+            }
         }
     }
 }
@@ -195,6 +201,7 @@
             object-fit: contain;
             width: 100%;
             padding: 0;
+            overflow: auto;
 
             .navContainer {
                 padding: 4em 0 4em 4em;
@@ -228,11 +235,15 @@
                     justify-content: center;
                 }
             }
+            #navContainer02 {
+                display: none;
+            }
         }
    }
 }
 @media (max-width: 635px) {
     .mainBg {
+        overflow: auto;
         figure {
             .navContainer {
                 display: none;
@@ -244,9 +255,10 @@
                 align-items: center;
                 margin: 0 auto;
                 padding: 3em 0;
+                position: fixed;
             }
             .moreDetails {
-                margin: 0 3em;
+                margin: 10em 3em;
             }
         }
     }
