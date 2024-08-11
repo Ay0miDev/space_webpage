@@ -19,5 +19,12 @@ const navInfoElements02 = document.getElementsByClassName('singleInfo02')[0];
 const navInfoElements03 = document.getElementsByClassName('singleInfo03')[0];
 const navInfoElements04 = document.getElementsByClassName('singleInfo04')[0];
 
-// The click function
-
+// The click function on the hamburger
+    function navFunction(){
+        const myInfoContent = document.getElementById('infoContentResponsive')
+        if(myInfoContent.className === 'navContainer') {
+            myInfoContent.className += ' responsive'
+        } else {
+            myInfoContent.className = 'navContainer'
+        }
+    }

@@ -247,6 +247,11 @@
         figure {
             .navContainer {
                 display: none;
+
+            }
+            .navContainer.responsive > .infoContent{
+                    display: block;
+                    flex-direction: column;
             }
             #navContainer02 {
                 display: flex;

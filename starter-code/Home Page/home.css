@@ -227,6 +227,10 @@
   .mainBg figure .navContainer {
     display: none;
   }
+  .mainBg figure .navContainer.responsive > .infoContent {
+    display: block;
+    flex-direction: column;
+  }
   .mainBg figure #navContainer02 {
     display: flex;
     width: 80%;
