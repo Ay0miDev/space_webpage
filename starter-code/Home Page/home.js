@@ -19,5 +19,5 @@ const navInfoElements02 = document.getElementsByClassName('singleInfo02')[0];
 const navInfoElements03 = document.getElementsByClassName('singleInfo03')[0];
 const navInfoElements04 = document.getElementsByClassName('singleInfo04')[0];
 
-
+// The click function
 
