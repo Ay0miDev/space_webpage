@@ -249,6 +249,9 @@
                 display: none;
 
             }
+            .navContainer.responsive {
+                position: relative;
+            }
             .navContainer.responsive > .infoContent{
                     display: block;
                     flex-direction: column;
@@ -260,6 +263,13 @@
                 align-items: center;
                 margin: 0 auto;
                 padding: 3em 0;
+
+                #hamburgerContainer {
+
+                    #hamburger {
+                        
+                    }
+                }
             }
             .moreDetails {
                 margin: 0 3em;

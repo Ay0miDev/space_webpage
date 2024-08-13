@@ -227,6 +227,9 @@
   .mainBg figure .navContainer {
     display: none;
   }
+  .mainBg figure .navContainer.responsive {
+    position: relative;
+  }
   .mainBg figure .navContainer.responsive > .infoContent {
     display: block;
     flex-direction: column;
