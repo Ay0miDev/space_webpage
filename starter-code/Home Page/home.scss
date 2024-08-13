@@ -91,10 +91,9 @@
                     }
                 }
             }
-            
-        }
-        #navContainer02 {
-            display: none;
+            #hamburger {
+                display: none;
+            }
         }
         .moreDetails {
             margin: 14em 8em;
@@ -185,9 +184,6 @@
                     }
                 }
             }
-            #navContainer02 {
-                display: none;
-            }
         }
     }
 }
@@ -247,14 +243,30 @@
         figure {
             .navContainer {
                 padding: 4em 2em;
+                position: sticky;
 
                 .infoContent {
                     display: none;
                 }
                 .infoContent.responsive {
-                    display: block;
+                    width: 100%;
+                    background: black;
+                    display: flex;
+                    flex-direction: column;
                     position: absolute;
+                    left: 0;
                     top: 12em;
+                    gap: 2em;
+                }
+                .infoContent.responsive #singleInfoContainer {
+                    width: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 4px;
+                }
+                #hamburger {
+                    display: block;
                 }
             }
             .moreDetails {

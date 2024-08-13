@@ -90,7 +90,7 @@
   font-size: 16px;
   position: relative;
 }
-.mainBg figure #navContainer02 {
+.mainBg figure .navContainer #hamburger {
   display: none;
 }
 .mainBg figure .moreDetails {
@@ -170,9 +170,6 @@
     width: 200px;
     font-size: 2em;
   }
-  .mainBg figure #navContainer02 {
-    display: none;
-  }
 }
 @media (max-width: 770px) {
   .mainBg {
@@ -226,14 +223,30 @@
   }
   .mainBg figure .navContainer {
     padding: 4em 2em;
+    position: sticky;
   }
   .mainBg figure .navContainer .infoContent {
     display: none;
   }
   .mainBg figure .navContainer .infoContent.responsive {
-    display: block;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
     position: absolute;
+    left: 0;
     top: 12em;
+    gap: 2em;
+  }
+  .mainBg figure .navContainer .infoContent.responsive #singleInfoContainer {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+  }
+  .mainBg figure .navContainer #hamburger {
+    display: block;
   }
   .mainBg figure .moreDetails {
     margin: 0 3em;
