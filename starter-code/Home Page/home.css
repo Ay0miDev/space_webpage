@@ -225,22 +225,15 @@
     overflow: auto;
   }
   .mainBg figure .navContainer {
+    padding: 4em 2em;
+  }
+  .mainBg figure .navContainer .infoContent {
     display: none;
   }
-  .mainBg figure .navContainer.responsive {
-    position: relative;
-  }
-  .mainBg figure .navContainer.responsive > .infoContent {
+  .mainBg figure .navContainer .infoContent.responsive {
     display: block;
-    flex-direction: column;
-  }
-  .mainBg figure #navContainer02 {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 3em 0;
+    position: absolute;
+    top: 12em;
   }
   .mainBg figure .moreDetails {
     margin: 0 3em;

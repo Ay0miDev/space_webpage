@@ -246,29 +246,15 @@
         overflow: auto;
         figure {
             .navContainer {
-                display: none;
+                padding: 4em 2em;
 
-            }
-            .navContainer.responsive {
-                position: relative;
-            }
-            .navContainer.responsive > .infoContent{
+                .infoContent {
+                    display: none;
+                }
+                .infoContent.responsive {
                     display: block;
-                    flex-direction: column;
-            }
-            #navContainer02 {
-                display: flex;
-                width: 80%;
-                justify-content: space-between;
-                align-items: center;
-                margin: 0 auto;
-                padding: 3em 0;
-
-                #hamburgerContainer {
-
-                    #hamburger {
-                        
-                    }
+                    position: absolute;
+                    top: 12em;
                 }
             }
             .moreDetails {

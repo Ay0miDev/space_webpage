@@ -22,11 +22,10 @@ const navInfoElements04 = document.getElementsByClassName('singleInfo04')[0];
 // The click function on the hamburger
     function navFunction(){
         const myInfoContent = document.getElementById('infoContentResponsive')
-        myInfoContent.classList.toggle(' responsive')
-        if(myInfoContent.className === 'navContainer') {
+        if(myInfoContent.className === 'infoContent') {
             myInfoContent.className += ' responsive'
         } else {
-            myInfoContent.className = 'navContainer'
+            myInfoContent.className = 'infoContent'
         }
         
     }
