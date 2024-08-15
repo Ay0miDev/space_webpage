@@ -223,7 +223,10 @@
   }
   .mainBg figure .navContainer {
     padding: 4em 2em;
-    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
   }
   .mainBg figure .navContainer .infoContent {
     display: none;
@@ -248,7 +251,10 @@
   .mainBg figure .navContainer #hamburger {
     display: block;
   }
+  .mainBg figure .navContainer :hover {
+    cursor: pointer;
+  }
   .mainBg figure .moreDetails {
-    margin: 0 3em;
+    margin: 15em 3em;
   }
 }/*# sourceMappingURL=home.css.map */

@@ -243,7 +243,11 @@
         figure {
             .navContainer {
                 padding: 4em 2em;
-                position: sticky;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                position: fixed;
+                
 
                 .infoContent {
                     display: none;
@@ -265,12 +269,15 @@
                     justify-content: center;
                     padding: 4px;
                 }
-                #hamburger {
+                #hamburger {  
                     display: block;
+                }
+                :hover {
+                    cursor: pointer;
                 }
             }
             .moreDetails {
-                margin: 0 3em;
+                margin: 15em 3em;
             }
         }
     }
