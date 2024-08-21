@@ -251,6 +251,9 @@
 
                 .infoContent {
                     display: none;
+                    height: 0;
+                    overflow: hidden;
+                    transition: 4.5s ease-out;
                 }
                 .infoContent.responsive {
                     width: 100%;
@@ -259,15 +262,18 @@
                     flex-direction: column;
                     position: absolute;
                     left: 0;
-                    top: 12em;
+                    top: 10em;
                     gap: 2em;
+                    padding: 35px;
+                    height: auto;
+                    transition: height 13s ease-out;
+
                 }
                 .infoContent.responsive #singleInfoContainer {
                     width: auto;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    padding: 4px;
                 }
                 #hamburger {  
                     display: block;

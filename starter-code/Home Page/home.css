@@ -230,6 +230,9 @@
   }
   .mainBg figure .navContainer .infoContent {
     display: none;
+    height: 0;
+    overflow: hidden;
+    transition: 4.5s ease-out;
   }
   .mainBg figure .navContainer .infoContent.responsive {
     width: 100%;
@@ -238,15 +241,17 @@
     flex-direction: column;
     position: absolute;
     left: 0;
-    top: 12em;
+    top: 10em;
     gap: 2em;
+    padding: 35px;
+    height: auto;
+    transition: height 13s ease-out;
   }
   .mainBg figure .navContainer .infoContent.responsive #singleInfoContainer {
     width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4px;
   }
   .mainBg figure .navContainer #hamburger {
     display: block;
