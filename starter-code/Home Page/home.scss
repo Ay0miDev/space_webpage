@@ -286,6 +286,10 @@
                     align-items: center;
                     justify-content: center;
                 }
+                .infoContent.responsive #singleInfoContainer:hover {
+                    background: none;
+                    
+                }
                 #hamburger {  
                     display: block;
                 }

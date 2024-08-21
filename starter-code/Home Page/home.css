@@ -265,6 +265,9 @@
     align-items: center;
     justify-content: center;
   }
+  .mainBg figure .navContainer .infoContent.responsive #singleInfoContainer:hover {
+    background: none;
+  }
   .mainBg figure .navContainer #hamburger {
     display: block;
   }
