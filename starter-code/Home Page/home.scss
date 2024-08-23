@@ -265,7 +265,7 @@
                     top: 11em;
                     gap: 2em;
                     padding: 35px;
-                    height: 400px;
+                    height: auto;
                     animation: growOut 500ms ease-in-out forwards;
                     transform-origin: top center;
                 }
@@ -285,10 +285,13 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    padding: 0 2px;
                 }
                 .infoContent.responsive #singleInfoContainer:hover {
                     background: none;
-                    
+                }
+                #singleInfoContainer:hover::after {
+                    display: none;
                 }
                 #hamburger {  
                     display: block;
