@@ -242,7 +242,7 @@
   .mainBg01 .fig .marsDetails .marsInfo {
     font-size: 10px;
   }
-  .mainBg01 .fig .marsDetails .marsInfo .planet .information::after {
+  .mainBg01 .fig .marsDetails .marsInfo .planet .information::after, .mainBg01 .fig .marsDetails .marsInfo .planet .moonInformation::after, .mainBg01 .fig .marsDetails .marsInfo .planet .europaInformation::after, .mainBg01 .fig .marsDetails .marsInfo .planet .titanInformation::after {
     bottom: -5em;
     display: none;
   }
@@ -256,5 +256,12 @@
   }
   .mainBg01 .fig .navContainer01 .infoContent01 {
     width: 90%;
+  }
+  .mainBg01 .fig .marsDetails {
+    padding: 8em 0;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo {
+    padding: 10em 0;
+    align-items: center;
   }
 }/*# sourceMappingURL=destination-mars.css.map */
