@@ -6,7 +6,7 @@
 
 .mainBg01 {
   max-width: 1440px;
-  max-height: 90vh;
+  max-height: 100vh;
   width: 100%;
   margin: 0 auto;
   height: 100%;
@@ -236,4 +236,14 @@
   font-weight: lighter;
   font-family: none;
   color: white;
+}
+
+@media (max-width: 1350px) {
+  .mainBg01 .fig .marsDetails .marsInfo {
+    font-size: 10px;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo .planet .information::after {
+    bottom: -5em;
+    display: none;
+  }
 }/*# sourceMappingURL=destination-mars.css.map */
