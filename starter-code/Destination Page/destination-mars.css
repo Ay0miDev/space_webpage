@@ -246,4 +246,15 @@
     bottom: -5em;
     display: none;
   }
+}
+@media (max-width: 1200px) {
+  .mainBg01 .fig .navContainer01 .imgContainer01 {
+    width: 5%;
+  }
+  .mainBg01 .fig .navContainer01 .imgContainer01 .marginalLine01 {
+    display: none;
+  }
+  .mainBg01 .fig .navContainer01 .infoContent01 {
+    width: 90%;
+  }
 }/*# sourceMappingURL=destination-mars.css.map */

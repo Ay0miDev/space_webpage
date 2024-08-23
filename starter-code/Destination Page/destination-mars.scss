@@ -285,5 +285,19 @@
     }
 }
 @media (max-width: 1200px) {
-
+    .mainBg01 {
+        .fig {
+            .navContainer01 {
+                .imgContainer01 {
+                    width: 5%;
+                    .marginalLine01 {
+                        display: none;
+                    }
+                }
+                .infoContent01 {
+                    width: 90%;
+                }
+            }
+        }
+    }
 }
