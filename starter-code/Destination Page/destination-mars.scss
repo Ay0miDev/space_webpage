@@ -289,13 +289,10 @@
         .fig {
             .navContainer01 {
                 .imgContainer01 {
-                    width: 5%;
-                    .marginalLine01 {
-                        display: none;
-                    }
+                    width: 40%;
                 }
                 .infoContent01 {
-                    width: 90%;
+                    width: 60%;
                 }
             }
             .marsDetails {
@@ -305,6 +302,29 @@
                     padding: 10em 0;
                     align-items: center;
                 }
+            }
+        }
+    }
+}
+@media (max-width: 1100px) {
+    .mainBg01 {
+        .fig {
+            .navContainer01 {
+                .imgContainer01 {
+                    .marginalLine01 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 900px) {
+    .mainBg01 {
+        .fig {
+            padding: 0;
+            .navContainer01 {
+                // padding: 0 0 4em 4em; 
             }
         }
     }
