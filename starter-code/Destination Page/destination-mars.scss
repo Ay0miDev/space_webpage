@@ -94,6 +94,9 @@
                     }
                 }
             }
+            #hamburger {
+                display: none;
+            }
         }
 
 
@@ -391,6 +394,57 @@
                 .infoContent01 {
                     width: 100%;
                     padding: 1.5em 4em;
+                }
+            }
+            .marsDetails {
+                padding: 3em 0;
+                align-items: start;
+                .marsInfo {
+                    gap: 4em;
+                    flex-direction: column;
+                     #moonImg {
+                        width: 250px;
+                        height: 250px;
+                     }
+                     .planet {
+                        width: 95%;
+                        align-items: center;
+                        justify-content: center;
+
+                        #theMarsDetail, #theMoonDetail, #theEuropaDetail, #theTitanDetail {
+                            gap: 4em;
+                            width: 70%;
+                            align-items: center;
+                            text-align: center;
+
+                           .mars, .moon, .europa, .titan {
+                            font-size: 10em;
+                           }
+
+                           .timeAndDistance, .moon_timeAndDistance, .europa_timeAndDistance, .titan_timeAndDistance {
+                            width: auto;
+                           }
+                        }
+                     }
+                }
+            }   
+        }
+    }
+}
+@media (max-width: 635px) {
+    .mainBg01 {
+        overflow: auto;
+        .fig { 
+            padding: 0;
+            background-image: url(../assets/destination/background-destination-tablet.jpg); 
+            .navContainer01 {
+                padding: 4em 4em 0 4em;
+                .infoContent01 {
+                    display: none;
+                    overflow: hidden;
+                }
+                #hamburger {
+                    display: block;
                 }
             }
             .marsDetails {
