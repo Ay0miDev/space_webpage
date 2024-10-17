@@ -320,17 +320,32 @@
     padding: 1.5em 4em;
   }
   .mainBg01 .fig .marsDetails {
-    align-items: center;
+    padding: 3em 0;
+    align-items: start;
   }
   .mainBg01 .fig .marsDetails .marsInfo {
-    gap: 10em;
+    gap: 4em;
     flex-direction: column;
   }
   .mainBg01 .fig .marsDetails .marsInfo #moonImg {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   .mainBg01 .fig .marsDetails .marsInfo .planet {
     width: 95%;
+    align-items: center;
+    justify-content: center;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail {
+    gap: 4em;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .mars, .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .moon, .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .europa, .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .titan, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .mars, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .moon, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .europa, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .titan, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .mars, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .moon, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .europa, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .titan, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .mars, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .moon, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .europa, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .titan {
+    font-size: 10em;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .moon_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .europa_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMarsDetail .titan_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .moon_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .europa_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theMoonDetail .titan_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .moon_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .europa_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theEuropaDetail .titan_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .moon_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .europa_timeAndDistance, .mainBg01 .fig .marsDetails .marsInfo .planet #theTitanDetail .titan_timeAndDistance {
+    width: auto;
   }
 }/*# sourceMappingURL=destination-mars.css.map */
