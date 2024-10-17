@@ -357,3 +357,26 @@
         }
     }
 }
+@media (max-width: 840px) {
+    .mainBg01 {
+        .fig {  
+            .navContainer01 {
+                .infoContent01 {
+                    width: 82%;
+                }
+            }
+            .marsDetails {
+                .marsInfo {
+                    gap: 10em;
+                     #moonImg {
+                        width: 300px;
+                        height: 300px;
+                     }
+                     .planet {
+                        width: 95%;
+                     }
+                }
+            }   
+        }
+    }
+}

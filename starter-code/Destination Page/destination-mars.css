@@ -290,4 +290,19 @@
     width: 300px;
     height: 300px;
   }
+}
+@media (max-width: 840px) {
+  .mainBg01 .fig .navContainer01 .infoContent01 {
+    width: 82%;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo {
+    gap: 10em;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo #moonImg {
+    width: 300px;
+    height: 300px;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo .planet {
+    width: 95%;
+  }
 }/*# sourceMappingURL=destination-mars.css.map */
