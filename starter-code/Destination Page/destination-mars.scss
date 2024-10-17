@@ -362,12 +362,42 @@
         .fig {  
             .navContainer01 {
                 .infoContent01 {
-                    width: 82%;
+                    width: 87%;
                 }
             }
             .marsDetails {
                 .marsInfo {
+                    gap: 8em;
+                     #moonImg {
+                        width: 300px;
+                        height: 300px;
+                     }
+                     .planet {
+                        width: 100%;
+                        font-size: 7px;
+                     }
+                }
+            }   
+        }
+    }
+}
+@media (max-width: 750px) {
+    .mainBg01 {
+        .fig { 
+            padding: 0;
+            background-image: url(../assets/destination/background-destination-tablet.jpg); 
+            .navContainer01 {
+                padding: 4em 0 0 4em;
+                .infoContent01 {
+                    width: 100%;
+                    padding: 1.5em 4em;
+                }
+            }
+            .marsDetails {
+                align-items: center;
+                .marsInfo {
                     gap: 10em;
+                    flex-direction: column;
                      #moonImg {
                         width: 300px;
                         height: 300px;

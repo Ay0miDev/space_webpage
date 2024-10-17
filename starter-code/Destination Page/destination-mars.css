@@ -293,10 +293,38 @@
 }
 @media (max-width: 840px) {
   .mainBg01 .fig .navContainer01 .infoContent01 {
-    width: 82%;
+    width: 87%;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo {
+    gap: 8em;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo #moonImg {
+    width: 300px;
+    height: 300px;
+  }
+  .mainBg01 .fig .marsDetails .marsInfo .planet {
+    width: 100%;
+    font-size: 7px;
+  }
+}
+@media (max-width: 750px) {
+  .mainBg01 .fig {
+    padding: 0;
+    background-image: url(../assets/destination/background-destination-tablet.jpg);
+  }
+  .mainBg01 .fig .navContainer01 {
+    padding: 4em 0 0 4em;
+  }
+  .mainBg01 .fig .navContainer01 .infoContent01 {
+    width: 100%;
+    padding: 1.5em 4em;
+  }
+  .mainBg01 .fig .marsDetails {
+    align-items: center;
   }
   .mainBg01 .fig .marsDetails .marsInfo {
     gap: 10em;
+    flex-direction: column;
   }
   .mainBg01 .fig .marsDetails .marsInfo #moonImg {
     width: 300px;
