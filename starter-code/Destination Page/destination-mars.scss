@@ -130,7 +130,7 @@
                 padding: 3em 7em 0;
 
                 #moonImg {
-                    width: 400x;
+                    width: 400px;
                     height: 400px;
                     border-radius: 50%;
                 }
@@ -311,21 +311,49 @@
         .fig {
             .navContainer01 {
                 .imgContainer01 {
+                    width: 10%;
                     .marginalLine01 {
                         display: none;
                     }
+                }
+                .infoContent01 {
+                    width: 80%;
                 }
             }
         }
     }
 }
-@media (max-width: 900px) {
+@media (max-width: 920px) {
     .mainBg01 {
         .fig {
-            padding: 0;
             .navContainer01 {
-                // padding: 0 0 4em 4em; 
-            }
+                padding: 0;
+                .infoContent01 {
+                    width: 80%;
+                }
+            }    
+            .marsDetails {
+                .marsInfo {
+                     #moonImg {
+                        width: 350px;
+                        height: 350px;
+                     }
+                }
+            }   
+        }
+    }
+}
+@media (max-width: 870px) {
+    .mainBg01 {
+        .fig {  
+            .marsDetails {
+                .marsInfo {
+                     #moonImg {
+                        width: 300px;
+                        height: 300px;
+                     }
+                }
+            }   
         }
     }
 }
