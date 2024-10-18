@@ -70,7 +70,7 @@ marsRef.style.backgroundColor = 'rgba(255, 255, 255, 0.43)'
 
 // The hamburger function
 function navFunction() {
-    const info01Responsive = document.getElementsByClassName('id="infoContent01Responsive')
+    const info01Responsive = document.getElementById('infoContent01Responsive')
     const hamburgerIcon = document.getElementById('hamburger')
 
     info01Responsive.classList.toggle('responsive')

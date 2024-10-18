@@ -366,6 +366,22 @@
   .mainBg01 .fig .navContainer01 .infoContent01 {
     display: none;
     overflow: hidden;
+    height: 0;
+  }
+  .mainBg01 .fig .navContainer01 .infoContent01.responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 9em;
+    background: black;
+    padding: 5px;
+    align-items: center;
+  }
+  .mainBg01 .fig .navContainer01 .infoContent01.responsive #singleInfoContainer01 {
+    background: none;
   }
   .mainBg01 .fig .navContainer01 #hamburger {
     display: block;
