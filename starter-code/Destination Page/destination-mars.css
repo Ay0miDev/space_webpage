@@ -359,9 +359,13 @@
   .mainBg01 .fig {
     padding: 0;
     background-image: url(../assets/destination/background-destination-tablet.jpg);
+    height: auto;
   }
   .mainBg01 .fig .navContainer01 {
-    padding: 4em 4em 0 4em;
+    padding: 4em 2em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
   .mainBg01 .fig .navContainer01 .infoContent01 {
     display: none;
@@ -371,27 +375,33 @@
   .mainBg01 .fig .navContainer01 .infoContent01.responsive {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 2em;
     height: auto;
     width: 100%;
     position: absolute;
-    top: 9em;
+    top: 11em;
+    left: 0;
     background: black;
-    padding: 5px;
+    padding: 35px;
     align-items: center;
   }
   .mainBg01 .fig .navContainer01 .infoContent01.responsive #singleInfoContainer01 {
     background: none;
+    padding: 0 2px;
+  }
+  .mainBg01 .fig .navContainer01 .infoContent01.responsive #singleInfoContainer01::after {
+    height: 1px;
   }
   .mainBg01 .fig .navContainer01 #hamburger {
     display: block;
   }
   .mainBg01 .fig .marsDetails {
-    padding: 3em 0;
+    padding: 8em 0 0;
     align-items: start;
   }
   .mainBg01 .fig .marsDetails .marsInfo {
-    gap: 4em;
+    padding: 7em 2em 2em;
+    gap: 8em;
     flex-direction: column;
   }
   .mainBg01 .fig .marsDetails .marsInfo #moonImg {
