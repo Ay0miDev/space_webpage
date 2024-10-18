@@ -442,6 +442,10 @@
                 .infoContent01 {
                     display: none;
                     overflow: hidden;
+                    height: 0;
+                }
+                .infoContent01.responsive {
+                    height: auto;
                 }
                 #hamburger {
                     display: block;
