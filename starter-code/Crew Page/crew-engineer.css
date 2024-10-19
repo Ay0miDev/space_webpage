@@ -210,6 +210,9 @@
   .mainBgEng .figEng .crewDetails {
     padding: 3em 3em 0 0;
   }
+  .mainBgEng .figEng .crewDetails #yourCrew {
+    padding: 2em 0;
+  }
   .mainBgEng .figEng .crewDetails .ansari_Img_Info {
     flex-direction: column;
   }
@@ -219,15 +222,19 @@
   }
   .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #occupation {
     font-size: 20px;
-    width: 100%;
+    text-align: center;
   }
   .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #name {
+    text-align: center;
     font-size: 40px;
   }
   .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo #bio_info {
     width: 100%;
-    padding-bottom: 2em;
+    padding-bottom: 15px;
     padding-top: 1em;
+  }
+  .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer {
+    padding-bottom: 3em;
   }
   .mainBgEng .figEng .crewDetails .ansari_Img_Info .ansariImgInfo .crewToggleContainer .crewToggle {
     width: 15px;

@@ -230,6 +230,9 @@
             .crewDetails {
                 padding: 3em 3em 0 0;
 
+                #yourCrew {
+                    padding: 2em 0;
+                }
                 .ansari_Img_Info {
                     flex-direction: column;
 
@@ -239,18 +242,19 @@
 
                         #occupation {
                             font-size: 20px;
-                            width: 100%;
+                            text-align: center;
                         }
                         #name {
+                            text-align: center;
                             font-size: 40px;
                         }
                         #bio_info {
                             width: 100%;
-                            padding-bottom: 2em;
+                            padding-bottom: 15px;
                             padding-top: 1em;
                         }
                         .crewToggleContainer {
-
+                            padding-bottom: 3em;
                             .crewToggle {
                                 width: 15px;
                                 height: 15px;
