@@ -185,4 +185,26 @@
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+@media (max-width: 1100px) {
+  .mainBgEng {
+    max-height: 100vh;
+    height: 100vh;
+  }
+  .mainBgEng .figEng {
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+  }
+  .mainBgEng .figEng .navContainerEng .imgContainer {
+    width: 10%;
+  }
+  .mainBgEng .figEng .navContainerEng .imgContainerEng {
+    width: 10%;
+  }
+  .mainBgEng .figEng .navContainerEng #marginalLineEng {
+    display: none;
+  }
+  .mainBgEng .figEng .navContainerEng .infoContentEng {
+    width: 80%;
+  }
 }/*# sourceMappingURL=crew-engineer.css.map */
